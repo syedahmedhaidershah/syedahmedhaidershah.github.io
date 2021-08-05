@@ -1,0 +1,58 @@
+@font-face {
+    font-family: proximaNova;
+    src: url('../fonts/proximaNovaLight.ttf');
+}
+
+*, h1, h2, h3, h4, h5, h6, button, div {
+    font-family: proximaNova;
+    --webkit-print-color-adjust: exact;
+}
+
+.bg-theme {
+    --webkit-print-color-adjust: exact;
+    background-color: #06508d!important;
+    background-color: transparent!important;
+}
+
+.text-theme {
+    --webkit-print-color-adjust: exact;
+    color: #06508d!important;
+}
+
+.main {
+    top: 0px;
+    left: 0px;
+}
+
+
+.vertical-align-middle {
+    vertical-align: middle!important;
+}
+
+.border-bottom-theme {
+    --webkit-print-color-adjust: exact;
+    border-bottom: 2px solid #06508d!important;
+}
+
+ul.square-bullets {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 1em;
+    text-indent: 1em;
+    list-style-image: url('../assets/img/bullet.png');
+}
+
+.bg-img {
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+}
+
+.text-white {
+    --webkit-print-color-adjust: exact;
+    color: #ffffff!important;
+}
+
+.overflow-hidden {
+    overflow: hidden!important;
+}
