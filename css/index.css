@@ -56,3 +56,7 @@ ul.square-bullets {
 .overflow-hidden {
     overflow: hidden!important;
 }
+
+.no-decor, .no-decor:active, .no-decor:visited {
+    text-decoration: none!important;
+}
