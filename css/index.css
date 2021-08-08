@@ -1,22 +1,30 @@
 @font-face {
     font-family: proximaNova;
-    src: url('../fonts/proximaNovaLight.ttf');
+    src: url("../fonts/proximaNovaLight.ttf");
 }
 
-*, h1, h2, h3, h4, h5, h6, button, div {
+*,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button,
+div {
     font-family: proximaNova;
     --webkit-print-color-adjust: exact;
 }
 
 .bg-theme {
     --webkit-print-color-adjust: exact;
-    background-color: #06508d!important;
+    background-color: #06508d !important;
     /* background-color: transparent!important; */
 }
 
 .text-theme {
     --webkit-print-color-adjust: exact;
-    color: #06508d!important;
+    color: #06508d !important;
 }
 
 .main {
@@ -24,14 +32,13 @@
     left: 0px;
 }
 
-
 .vertical-align-middle {
-    vertical-align: middle!important;
+    vertical-align: middle !important;
 }
 
 .border-bottom-theme {
     --webkit-print-color-adjust: exact;
-    border-bottom: 2px solid #06508d!important;
+    border-bottom: 2px solid #06508d !important;
 }
 
 ul.square-bullets {
@@ -39,7 +46,7 @@ ul.square-bullets {
     margin-left: 0;
     padding-left: 1em;
     text-indent: 1em;
-    list-style-image: url('../assets/img/bullet.png');
+    list-style-image: url("../assets/img/bullet.png");
 }
 
 .bg-img {
@@ -50,15 +57,17 @@ ul.square-bullets {
 
 .text-white {
     --webkit-print-color-adjust: exact;
-    color: #ffffff!important;
+    color: #ffffff !important;
 }
 
 .overflow-hidden {
-    overflow: hidden!important;
+    overflow: hidden !important;
 }
 
-.no-decor, .no-decor:active, .no-decor:visited {
-    text-decoration: none!important;
+.no-decor,
+.no-decor:active,
+.no-decor:visited {
+    text-decoration: none !important;
 }
 
 .bg-success-dark {
@@ -69,4 +78,24 @@ ul.square-bullets {
     height: 15px;
     width: 15px;
     border-radius: 3px;
+}
+
+.c-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px 0 rgba(0, 82, 235, 0.1);
+    padding: 20px;
+    position: relative;
+    transition: 0.3s ease all;
+    width: 100%;
+    cursor: pointer;
+    border: 1px solid #dfdfdf;
+}
+
+.c-card:hover {
+    box-shadow: 10px 10px 20px 0 rgba(0, 82, 235, 0.3);
+}
+
+.c-card.no-shadow {
+    box-shadow: none !important;
 }

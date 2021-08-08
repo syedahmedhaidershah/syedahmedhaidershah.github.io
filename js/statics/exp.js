@@ -5,12 +5,17 @@ export const exp = [
         duration: '09/2019 - To Date',
         companyProfile: ' Digitex focuses on digitizing products and solutions, taking the society into a paperless era.',
         tasksAchievements: [
+            'Designed extremely high throughput ingestion APIs with 100% availability and less than 500ms response times for C10K.',
+            'Enhanced Aggregation Pipelines for MongoDB to increase database performance and reduce query resolution times for ~4 seconds to about ~120ms.',
+            'Looked over and integrated clever design patterns to make application modules plug and play, adaptable, reusable and replaceable.',
             'Served as Full Stack MEAN Developer, Team Lead & Assosciate Architect.',
             'Managed DevOps and served as Co-Dev Manager.',
             'Leading development for the product Digitest, which is an online testing System.',
             'Helped manage product requirements',
             'Lead entirety of features production',
-            'Played the role of Scrum Master while managing the Backlog as well as the team'
+            'Played the role of Scrum Master while managing the Backlog as well as the team',
+            'Maintained Shift left SDLC.',
+            'Implemented and maintained basic principles such as SOLID, DRY-KISS, WET-KISS depending on usecases.',
         ]
     },
     {
