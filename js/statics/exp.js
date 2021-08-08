@@ -5,7 +5,7 @@ export const exp = [
         duration: '09/2019 - To Date',
         companyProfile: ' Digitex focuses on digitizing products and solutions, taking the society into a paperless era.',
         tasksAchievements: [
-            'Designed extremely high throughput ingestion APIs with 100% availability and less than 500ms response times for C10K.',
+            'Designed extremely high throughput ingestion APIs with ~   % availability and less than 500ms response times for C10K.',
             'Enhanced Aggregation Pipelines for MongoDB to increase database performance and reduce query resolution times for ~4 seconds to about ~120ms.',
             'Looked over and integrated clever design patterns to make application modules plug and play, adaptable, reusable and replaceable.',
             'Served as Full Stack MEAN Developer, Team Lead & Assosciate Architect.',
