@@ -82,14 +82,30 @@
         </div>
         <div id="skills-container" class="col-md-12 px-0 py-3">
             <div class="col-md-12 row mx-0 mt-0 mb-2 p-0">
-                <div v-for="s in skills" class="bg-dark p-2 rounded m-1">
-                    <small class="text-white">{{s}}</small>
+                <div v-for="s in skills"
+                class="p-2 rounded m-1"
+                v-bind:class="{'bg-dark': (s.level === 'raw'), 'bg-theme': s.level === 'intermediate', 'bg-success-dark': s.level === 'senior'}">
+                    <small class="text-white">{{s.skill}}</small>
                 </div>
                 <!-- <div v-for="s in skills"
                     class="px-3 py-2 text-white bg-theme mr-3 rounded position-relative overflow-hidden">
                     <img src="./assets/img/bg.png" class="position-absolute h-100 w-100 bg-img">
                     <small class="text-white">{{s}}</small>
                 </div> -->
+            </div>
+        </div>
+        <div class="d-flex pt-1 px-2 pb-2 mb-3 align-items-center">
+            <div class="px-4 font-weight-bold d-flex align-items-center">
+                <div class="legend-color-patch mr-2 bg-success-dark"></div>
+                <span>Seniority</span>
+            </div>
+            <div class="px-4 font-weight-bold d-flex align-items-center">
+                <div class="legend-color-patch mr-2 bg-theme"></div>
+                <span>Proficiency</span>
+            </div>
+            <div class="px-4 font-weight-bold d-flex align-items-center">
+                <div class="legend-color-patch mr-2 bg-dark"></div>
+                <span>intermediate</span>
             </div>
         </div>
         <div class="col-md-12 px-0 pt-3 pb-2 border-bottom-theme">

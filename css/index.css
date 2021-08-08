@@ -11,7 +11,7 @@
 .bg-theme {
     --webkit-print-color-adjust: exact;
     background-color: #06508d!important;
-    background-color: transparent!important;
+    /* background-color: transparent!important; */
 }
 
 .text-theme {
@@ -59,4 +59,14 @@ ul.square-bullets {
 
 .no-decor, .no-decor:active, .no-decor:visited {
     text-decoration: none!important;
+}
+
+.bg-success-dark {
+    background-color: #15750c;
+}
+
+.legend-color-patch {
+    height: 15px;
+    width: 15px;
+    border-radius: 3px;
 }
