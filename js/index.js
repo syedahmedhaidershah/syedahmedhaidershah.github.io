@@ -19,13 +19,13 @@ class CV {
             return { ...workExperience, state: !index }
         });
 
-        this.buff.skills = new Vue({
+        this.buff.skills = new window['Vue']({
             el: '#skills-container',
             data: {
                 skills
             }
         })
-        this.buff.wp = new Vue({
+        this.buff.wp = new window['Vue']({
             el: '#wp-container',
             data: {
                 wp: useWp
