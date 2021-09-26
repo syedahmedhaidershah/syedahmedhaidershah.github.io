@@ -1,5 +1,6 @@
 import { skills } from "./statics/skills.js";
 import { exp as wp } from "./statics/exp.js";
+import Vue from 'https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.esm.browser.js'
 
 class CV {
     buff = {
@@ -19,13 +20,13 @@ class CV {
             return { ...workExperience, state: !index }
         });
 
-        this.buff.skills = new window['Vue']({
+        this.buff.skills = new Vue({
             el: '#skills-container',
             data: {
                 skills
             }
         })
-        this.buff.wp = new window['Vue']({
+        this.buff.wp = new Vue({
             el: '#wp-container',
             data: {
                 wp: useWp
@@ -64,8 +65,7 @@ class CV {
         const workCards = Array.from(
             document.getElementsByClassName('work-card')
         );
-        console.log(workCards)
-
+      
         for (let workCard of workCards) {
             workCard.onclick = ($e) => {
                 const indexRetreived = workCard.getAttribute('index');
