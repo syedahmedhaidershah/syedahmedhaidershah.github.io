@@ -1,13 +1,16 @@
 <html>
 
 <head>
-    <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="./css/bootstrap-grid.min.css" />
-    <link rel="stylesheet" type="text/css" href="./css/bootstrap-reboot.min.css" />
-    <link rel="stylesheet" type="text/css" href="./css/googleApiFonts1.css" />
-    <link rel="stylesheet" type="text/css" href="./css/googleApiFonts2.css" />
-    <link rel="stylesheet" type="text/css" href="./css/index.css" />
-    <link rel="stylesheet" type="text/css" href="./css/media.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        rel="noreferrer" type="text/css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" async defer rel="stylesheet"
+        rel="noreferrer" />
+    <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet"
+        rel="noreferrer" async defer>
+    <link rel="stylesheet" rel="noreferrer" type="text/css" async defer href="./css/index.css" />
+    <link rel="stylesheet" rel="noreferrer" type="text/css" async defer href="./css/media.css" />
+    <link rel="icon" type="image/svg" href="favicon.svg" async defer />
 </head>
 
 <body>
@@ -18,11 +21,11 @@
                 Syed Ahmed Haider Shah
             </h2>
             <h6 class="border-bottom col-md-2 px-0 pt-0 pb-2 text-white">
-                Product Development Lead
+                Product Engineering Lead & Architect
             </h6>
             <h6>
-                <small class="text-white">Full stack Team Lead, Infrastructure & Solution Architect, IoT Hobbyist,
-                    Product Engineering Lead</small>
+                <small class="text-white">Full stack Team Lead | Infrastructure & Solution Architect | IoT Hobbyist |
+                    Product Engineering Lead | Scrum Master</small>
             </h6>
             <h5>
                 <small class="text-white">I fuel products.</small>
@@ -102,11 +105,7 @@
                         v-bind:class="{'bg-dark': (s.level === 'raw'), 'bg-theme': s.level === 'intermediate', 'bg-success-dark': s.level === 'senior'}">
                         <small class="text-white">{{s.skill}}</small>
                     </div>
-                    <!-- <div v-for="s in skills"
-                        class="px-3 py-2 text-white bg-theme mr-3 rounded position-relative overflow-hidden">
-                        <img src="./assets/img/bg.png" class="position-absolute h-100 w-100 bg-img">
-                        <small class="text-white">{{s}}</small>
-                    </div> -->
+
                 </div>
             </div>
             <div class="pt-2 pb-1 px-4 font-weight-bold">
@@ -132,12 +131,21 @@
                 </h4>
             </div>
             <div id="wp-container" class="p-2">
-                <div v-for="w in wp" class="col-md-12 p-4 c-card mb-2" style="page-break-inside: avoid;">
+                <div v-for="(w, index) in wp" class="work-card col-md-12 p-4 c-card mb-2 mdc-ripple-surface"
+                    v-bind:index="index" style="page-break-inside: avoid;">
                     <div class="col-md-12 px-0 py-1">
-                        <h6 class="m-0 text-theme font-weight-bold">
-                            <h3 class="small d-inline">Served as</h3> <b>{{w.servedAs}}</b>
+                        <h6 class="m-0 text-theme font-weight-bold d-flex justify-content-between">
+                            <div class="header">
+                                <h3 class="small d-inline">Served as</h3> <b>{{w.servedAs}}</b>
+                            </div>
+                            <div class="actions">
+                                <span
+                                    v-bind:class="{'material-icons': true, 'd-none': w.state}">keyboard_arrow_down</span>
+                                <span
+                                    v-bind:class="{'material-icons': true, 'd-none': !w.state, 'text-dark': true}">keyboard_arrow_up</span>
+                            </div>
                         </h6>
-                        <h6 class="m-0">
+                        <h6 class="m-0 company-name text-info mb-1" v-bind:attr="w.uri">
                             {{w.companyName}}
                         </h6>
                         <div>
@@ -159,9 +167,11 @@
                                 <i class="text-theme font-weight-bold">
                                     Achievements/Tasks
                                 </i>
+                                <span v-if="!w.state" class="small ml-3 font-weight-bold text-theme">(Expand to view ...)</span>
                             </small>
                         </div>
-                        <div>
+                        <div class="overflow-hidden transition-height"
+                            v-bind:style="{height: !w.state ? '0px!important' : 'auto!important'}">
                             <ul class="square-bullets">
                                 <li v-for="li in w.tasksAchievements">
                                     <span class="vertical-align-middle">
@@ -232,12 +242,12 @@
             </div>
         </div>
     </div>
-    <script src="./js/vue.js"></script>
-    <script src="./js/jquery.js"></script>
-    <script src="./js/bootstrap.min.js"></script>
-    <script src="./js/bootstrap.bundle.min.js"></script>
-    <script src="./js/jquery.js"></script>
-    <script src="./js/index.js" type="module"></script>
+    <script src="./js/vue.js" async defer></script>
+    <!-- <script src="./js/jquery.js" async defer></script> -->
+    <!-- <script src="./js/bootstrap.min.js" async defer></script>
+    <script src="./js/bootstrap.bundle.min.js" async defer></script> -->
+    <!-- <script src="./js/jquery.js" async defer></script> -->
+    <script src="./js/index.js" type="module" async defer></script>
     <!-- The core Firebase JS SDK is always required and must be listed first -->
     <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-app.js"></script>
 
@@ -261,6 +271,10 @@
         firebase.initializeApp(firebaseConfig);
         firebase.analytics();
     </script>
+
+    <!-- Material ripple -->
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js" async
+        defer></script>
 </body>
 
 </html>

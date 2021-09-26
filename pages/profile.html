@@ -1,0 +1,266 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap-grid.min.css" />
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap-reboot.min.css" />
+    <link rel="stylesheet" type="text/css" href="../css/googleApiFonts1.css" />
+    <link rel="stylesheet" type="text/css" href="../css/googleApiFonts2.css" />
+    <link rel="stylesheet" type="text/css" href="../css/index.css" />
+    <link rel="stylesheet" type="text/css" href="../css/media.css" />
+</head>
+
+<body>
+    <div class="col-md-12 p-0 position-absolute main h-auto">
+        <div class="col-md-12 bg-theme-dark text-white p-5 position-relative">
+            <img src="../assets/img/bg.png" class="position-absolute h-100 w-100 bg-img">
+            <h2 class="m-0 text-white">
+                Syed Ahmed Haider Shah
+            </h2>
+            <h6 class="border-bottom col-md-2 px-0 pt-0 pb-2 text-white">
+                Product Development Lead
+            </h6>
+            <h6>
+                <small class="text-white">Full stack Team Lead, Infrastructure & Solution Architect, IoT Hobbyist,
+                    Product Engineering Lead</small>
+            </h6>
+            <h5>
+                <small class="text-white">I fuel products.</small>
+            </h5>
+        </div>
+        <div class="p-5 body">
+            <div class="col-md-12 px-0 mt-5 pt-3 pb-2 mb-2 border-bottom-theme">
+                <h4 class="text-theme font-weight-bold m-0">
+                    CONTACT
+                </h4>
+            </div>
+            <div class="col-md-12 p-5 c-card mb-2">
+                <div class="col-md-12 row m-0 px-0 py-2">
+                    <div class="col-md-6 p-0">
+                        <i class="vertical-align-middle material-icons text-theme mr-3">email</i>
+                        <span class="vertical-align-middle">
+                            <a href="mailto:syedahmedhaidershah@yahoo.com" class="no-decor"
+                                target="_blank">syedahmedhaidershah@yahoo.com</a>
+                        </span>
+                    </div>
+                    <div class="col-md-6 p-0">
+                        <i class="vertical-align-middle material-icons text-theme mr-3">stay_primary_portrait</i>
+                        <span class="vertical-align-middle">
+                            <a href="tel:+923003573769" class="no-decor" target="_blank">+923003573769</a>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="col-md-12 row m-0 px-0 py-2">
+                    <div class="col-md-6 p-0">
+                        <i class="vertical-align-middle material-icons text-theme mr-3">place</i><span
+                            class="vertical-align-middle">
+                            <a href="https://goo.gl/maps/Pf9tSkBjEVtk5GJK7" class="no-decor" target="_blank">
+                                Karachi, Pakistan</a>
+                        </span>
+                    </div>
+                    <div class="col-md-6 p-0">
+                        <img class="vertical-align-middle material-icons text-theme mr-3"
+                            src="../assets/img/linkedin.png">
+                        <span class="vertical-align-middle">
+                            <a href="https://linkedin.com/in/syedahmedhaidershah" target="_blank" class="no-decor">
+                                linkedin.com/in/syedahmedhaidershah
+                            </a>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="col-md-12 row m-0 px-0 py-2">
+                    <div class="col-md-6 p-0">
+                        <img class="vertical-align-middle material-icons text-theme mr-3"
+                            src="../assets/img/twitter.png">
+                        <span class="vertical-align-middle">
+                            <a href="https://twitter.com/SAHS9996" target="_blank" class="no-decor">
+                                twitter.com/SAHS9996
+                            </a>
+                        </span>
+                    </div>
+                    <div class="col-md-6 p-0">
+                        <img class="vertical-align-middle material-icons text-theme mr-3"
+                            src="../GitHub-Mark/PNG/GitHub-Mark-24.png" />
+                        <span class="vertical-align-middle">
+                            <a href="https://github.com/syedahmedhaidershah" target="_blank" class="no-decor">
+                                github.com/syedahmedhaidershah
+                            </a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 px-0 mt-5 pt-3 pb-2 border-bottom-theme">
+                <h4 class="text-theme font-weight-bold m-0">
+                    SKILLS
+                </h4>
+            </div>
+            <div id="skills-container" class="col-md-12 px-0 py-3">
+                <div class="col-md-12 row mx-0 mt-0 mb-2 p-0">
+                    <div v-for="s in skills" class="p-2 rounded m-1"
+                        v-bind:class="{'bg-theme-dark': (s.level === 'raw'), 'bg-theme': s.level === 'intermediate', 'bg-success-dark': s.level === 'senior'}">
+                        <small class="text-white">{{s.skill}}</small>
+                    </div>
+                    <!-- <div v-for="s in skills"
+                        class="px-3 py-2 text-white bg-theme mr-3 rounded position-relative overflow-hidden">
+                        <img src="../assets/img/bg.png" class="position-absolute h-100 w-100 bg-img">
+                        <small class="text-white">{{s}}</small>
+                    </div> -->
+                </div>
+            </div>
+            <div class="pt-2 pb-1 px-4 font-weight-bold">
+                Proficiency
+            </div>
+            <div class="d-flex pt-1 px-2 pb-2 mb-3 align-items-center">
+                <div class="px-4 font-weight-bold d-flex align-items-center">
+                    <div class="legend-color-patch mr-2 bg-success-dark"></div>
+                    <span>Seniority</span>
+                </div>
+                <div class="px-4 font-weight-bold d-flex align-items-center">
+                    <div class="legend-color-patch mr-2 bg-theme"></div>
+                    <span>Medium</span>
+                </div>
+                <div class="px-4 font-weight-bold d-flex align-items-center">
+                    <div class="legend-color-patch mr-2 bg-dark"></div>
+                    <span>intermediate</span>
+                </div>
+            </div>
+            <div class="col-md-12 px-0 pt-3 mt-5 pb-2 border-bottom-theme">
+                <h4 class="text-theme font-weight-bold m-0">
+                    WORK EXPERIENCE
+                </h4>
+            </div>
+            <div id="wp-container" class="p-2">
+                <div v-for="w in wp" class="col-md-12 p-4 c-card mb-2" style="page-break-inside: avoid;">
+                    <div class="col-md-12 px-0 py-1">
+                        <h6 class="m-0 text-theme font-weight-bold">
+                            <h3 class="small d-inline">Served as</h3> <b>{{w.servedAs}}</b>
+                        </h6>
+                        <h6 class="m-0">
+                            {{w.companyName}}
+                        </h6>
+                        <div>
+                            <small>
+                                <i class="text-theme font-weight-bold">
+                                    {{w.duration}}
+                                </i>
+                            </small>
+                        </div>
+                        <div class="my-2">
+                            <small>
+                                <i>
+                                    {{w.companyProfile}}
+                                </i>
+                            </small>
+                        </div>
+                        <div>
+                            <small>
+                                <i class="text-theme font-weight-bold">
+                                    Achievements/Tasks
+                                </i>
+                            </small>
+                        </div>
+                        <div>
+                            <ul class="square-bullets">
+                                <li v-for="li in w.tasksAchievements">
+                                    <span class="vertical-align-middle">
+                                        {{li}}
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 px-0 mt-5 pt-3 pb-2 border-bottom-theme">
+                <h4 class="text-theme font-weight-bold m-0">
+                    RESEARCH
+                </h4>
+            </div>
+            <div class="col-md-12 p-5">
+                <ul class="square-bullets">
+                    <li>
+                        <span class="vertical-align-middle">
+                            Published Paper on Application of Complex Numbers in Natural Process in journal of Intel
+                            ISEF 2015. The paper won first
+                            prize in Mathematics category in Pakistan Science Fair and Runner up in National Science
+                            Fair.
+                        </span>
+                    </li>
+                </ul>
+                <ul class="square-bullets">
+                    <li>
+                        <span class="vertical-align-middle">
+                            Started research on a personalized algorithm of highly-accurate 3d Localization of
+                            objects via multiple sensors and technologies.
+                        </span>
+                    </li>
+                </ul>
+                <ul class="square-bullets">
+                    <li>
+                        <span class="vertical-align-middle">
+                            Started research on highly reactive Peltiers using Active Germanium to convert radiation
+                            in Radio-wave, infrared, microwave and visual light band to electricity.
+                        </span>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-12 px-0 py-2">
+            </div>
+            <div class="col-md-12 px-0 pt-3 pb-2 border-bottom-theme">
+                <h4 class="text-theme font-weight-bold m-0">
+                    EDUCATION
+                </h4>
+            </div>
+            <div class="col-md-12 px-0 py-2 p-5">
+                <div class="col-md-12 px-0 py-1">
+                    <h6 class="m-0 text-theme font-weight-bold">
+                        Computer Systems Engineering (BE. EL)
+                    </h6>
+                    <h6 class="m-0">
+                        Usman Institute of Technology
+                    </h6>
+                    <div>
+                        <small>
+                            <i class="text-theme font-weight-bold">
+                                10/2015 – Present
+                            </i>
+                        </small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../js/vue.js"></script>
+    <script src="../js/jquery.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/jquery.js"></script>
+    <script src="../js/profile.js" type="module"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-analytics.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        var firebaseConfig = {
+            apiKey: "AIzaSyBgmx_D_6Bpy8iMrP4UPohmmc1FQu7T6f4",
+            authDomain: "github-resume-5274b.firebaseapp.com",
+            projectId: "github-resume-5274b",
+            storageBucket: "github-resume-5274b.appspot.com",
+            messagingSenderId: "921629374045",
+            appId: "1:921629374045:web:123ee902aff03dda17bfb4",
+            measurementId: "G-QJQBKQEK2E"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+    </script>
+</body>
+
+</html>

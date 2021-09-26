@@ -124,3 +124,11 @@ ul.square-bullets {
 .bg-theme-dark {
     background-color: #222;
 }
+
+.h-0 {
+    height: 0px
+}
+
+.transition-height {
+    transition: height 250ms;
+}

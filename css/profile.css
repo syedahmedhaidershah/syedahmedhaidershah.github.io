@@ -1,0 +1,25 @@
+@font-face {
+    font-family: SourceSans;
+    src: url("../assets/fonts/SourceSansPro-Regular.ttf");
+}
+
+* {
+    font-family: SourceSans, Helvetica, sans-serif !important;
+}
+
+.main {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(150, 0, 150, 0.3));
+}
+
+.info-container {
+    border: 1px solid #fff;
+    border-radius: 15px;
+    width: 600px;
+}
+
+body {
+    background: url("../assets/img/background-low.jpg");
+    flex: 1;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}

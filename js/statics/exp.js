@@ -1,9 +1,20 @@
 export const exp = [
     {
+        servedAs: 'Team Lead: Engineering & Architecture',
+        companyName: 'Liquid Technologies',
+        duration: '09/2021 - To Date',
+        companyProfile: 'Liquid Technology provides engineering solutions for corporates, encompassing data-science, embedded & software solutions.',
+        uri: 'https://www.liqteq.com/',
+        tasksAchievements: [
+            'STARTED JUST NOW - Onboarded LiqTeq'
+        ]
+    },
+    {
         servedAs: 'Full-Stack Team Lead, Architect, Scrum Master',
         companyName: 'Digitest.nl',
-        duration: '09/2019 - To Date',
-        companyProfile: ' Digitex focuses on digitizing products and solutions, taking the society into a paperless era.',
+        duration: '09/2019 - 09/2021',
+        companyProfile: ' Digitest is an online assessment and examination SaaS solution. A KBenP partner firm',
+        uri: 'http://digitest.nl/',
         tasksAchievements: [
             'Designed extremely high throughput ingestion APIs with ~   % availability and less than 500ms response times for C10K.',
             'Enhanced Aggregation Pipelines for MongoDB to increase database performance and reduce query resolution times for ~4 seconds to about ~120ms.',
@@ -23,6 +34,7 @@ export const exp = [
         companyName: 'Scientise7 Pvt. ltd',
         duration: '09/2019 - 12/2020',
         companyProfile: 'A company carrying multiple mature products that are live, providing quality solutions in record time.',
+        uri: '',
         tasksAchievements: [
             'Served as Scrum Master on multiple products.',
             'Provided Solution Architectures for several projects.',
@@ -39,6 +51,7 @@ export const exp = [
         companyName: 'Pulsate Technologies',
         duration: '05/2018 - 06/2019',
         companyProfile: 'Pulsate Technologies (Pulsatechs) is a tech company aimed at upgrading the standard of living for an increasingly technological society.',
+        uri: '',
         tasksAchievements: [
             'Head of Development for their products, \'Pluto\'.',
             'Designed highly scalable and secure IoT systems, powered by Raspberry Pi, Arduino & NodeJS.',
@@ -50,6 +63,7 @@ export const exp = [
         companyName: 'Integraject',
         duration: '07/2015 - 11/2016',
         companyProfile: 'A service based company providing full-stack development & IoT consultancy as services.',
+        uri: '',
         tasksAchievements: [
             'Part of Development team for their first product, \'AutoSocket\'.',
             'Went through extreme technical growth in that period, gaining hands-on experience with multiple tools & technologies.',
