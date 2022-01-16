@@ -25,7 +25,7 @@ export const exp = [
         companyProfile: ' Digitest is an online assessment and examination SaaS solution. A KBenP partner firm',
         uri: 'http://digitest.nl/',
         tasksAchievements: [
-            'Designed extremely high throughput ingestion APIs with ~   % availability and less than 500ms response times for C10K.',
+            'Designed extremely high throughput ingestion APIs with high availability and less than 500ms response times for C10K.',
             'Enhanced Aggregation Pipelines for MongoDB to increase database performance and reduce query resolution times for ~4 seconds to about ~120ms.',
             'Looked over and integrated clever design patterns to make application modules plug and play, adaptable, reusable and replaceable.',
             'Served as Full Stack MEAN Developer, Team Lead & Assosciate Architect.',
