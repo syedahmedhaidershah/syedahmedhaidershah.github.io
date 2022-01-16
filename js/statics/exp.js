@@ -6,7 +6,16 @@ export const exp = [
         companyProfile: 'Liquid Technology provides engineering solutions for corporates, encompassing data-science, embedded & software solutions.',
         uri: 'https://www.liqteq.com/',
         tasksAchievements: [
-            'STARTED JUST NOW - Onboarded LiqTeq'
+            'Onboarded and provided System & Architecture solutions to  IoT related data problems in Procheck (Sarmayakaar Funded Platform)',
+            'Streamlined the delivery of SmartRupee, an Elphinsotne Platform as a Consultant Engineering Lead',
+            'Setup company boilerplates for Programme & People Management',
+            'Setup, designed infrastructures and Architectures of Applications large scale platforms & products with my team',
+            'Introduced Scrum + Extreme Programming Practices',
+            'Introduced the use of Atlassian Products such as Jira and Confluence',
+            'Improved Version Control Strategies and Practices',
+            'Setup and deployed boilerplates for CI/CD Pipelines',
+            'Trained and onboarded Developers, Engineers, QA Engineers (Automation + Testing) and DevOps Engineers',
+            'Aligned with Data-Engineers & Data Analysts (Data Team) to provide robust solutions and designed architecture for one of their upcoming products'
         ]
     },
     {

@@ -2,7 +2,6 @@
     .bg-theme {
         --webkit-print-color-adjust: exact;
         background-color: #06508d;
-        background-color: transparent!important;
     }
     .text-theme {
         --webkit-print-color-adjust: exact;
@@ -11,5 +10,8 @@
     .text-white {
         --webkit-print-color-adjust: exact;
         color: #ffffff!important;
+    }
+    .break-page-after {
+        page-break-after: always;
     }
 }
