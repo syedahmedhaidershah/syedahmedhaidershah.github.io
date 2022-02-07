@@ -165,9 +165,42 @@
                         <div>
                             <small>
                                 <i class="text-theme font-weight-bold">
+                                    Projects
+                                </i>
+                                <span v-if="!w.state" class="small ml-3 font-weight-bold text-theme">(Expand to view
+                                    ...)</span>
+                            </small>
+                        </div>
+                        <div class="overflow-hidden transition-height"
+                            v-bind:style="{height: !w.state ? '0px!important' : 'auto!important'}">
+                            <ul class="square-bullets">
+                                <li v-for="li in w.projects" class="my-3">
+                                    <div>{{li.name}}</div>
+                                    <div class="small">{{li.detail}}</div>
+                                    <div class="my-2">
+                                        <div class="small text-theme">Tools / Technologies</div>
+                                        <div class="d-flex tools-container flex-wrap p-2">
+                                            <div class="vertical-align-middle text-indent-auto tool-tech-card"
+                                                v-for="tool in li.tools">{{tool}}</div>
+                                        </div>
+                                    </div>
+                                    <div class="my-2">
+                                        <div class="small text-theme">Skills / Concepts:</div>
+                                        <div class="d-flex tools-container flex-wrap p-2">
+                                            <div class="vertical-align-middle text-indent-auto tool-tech-card"
+                                                v-for="skill in li.skills">{{skill}}</div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <small>
+                                <i class="text-theme font-weight-bold">
                                     Achievements/Tasks
                                 </i>
-                                <span v-if="!w.state" class="small ml-3 font-weight-bold text-theme">(Expand to view ...)</span>
+                                <span v-if="!w.state" class="small ml-3 font-weight-bold text-theme">(Expand to view
+                                    ...)</span>
                             </small>
                         </div>
                         <div class="overflow-hidden transition-height"
@@ -242,9 +275,9 @@
             </div>
         </div>
     </div>
-    
+
     <script src="./js/index.js" type="module"></script>
-    
+
     <!-- The core Firebase JS SDK is always required and must be listed first -->
     <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-app.js"></script>
 

@@ -132,3 +132,16 @@ ul.square-bullets {
 .transition-height {
     transition: height 250ms;
 }
+
+.text-indent-auto {
+    text-indent: initial!important;
+}
+
+.tool-tech-card {
+    padding: 0.25rem 0.75rem;
+    margin: 0.2rem;
+    box-shadow: 1px 1px 5px -2px #000;
+    min-width:5vw;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
