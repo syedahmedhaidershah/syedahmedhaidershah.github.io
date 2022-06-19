@@ -1,6 +1,7 @@
 <html>
 
 <head>
+    <meta name="keywords" content="ahmed.haider syedahmedhaidershah digitest digitest.nl liqteq liqteq.com 433 by433 433.com jogo.ai cp cloudprimero cloudprimero.com aws-ec2 aws-s3-standard aws-route53 aws-sns aws-ses aws-ecs aws-eks aws-rds aws-dynamodb aws-lambda amazon-cloudfront mongodb mongo-atlas-search aws-ebs firebase google-cloud-platform dialogflow gcp-cloudvision-api devops cloudops platform-architecture-design infrastructure-architecture-design cloud-architecture-design solution-architecture-design product-management project-management jenkins ci/cd github-actions research-&-dev docker agile scrum jira-software system-administration full-stack-web-(mean) full-stack-web-(mern) angular-2+-(4-11) es5 es6 nextgen-js oop version-control-systems-(git,-svn) rxjs android-native cordova electron chrome-app-&-extension-development socket.io iot processing.js native-processing bootstrap angular-material ngrx material-design linux---centos,-raspbian,-ubuntu server-management-&-setup mqtt arduino vue-js stateless-&-stateful-design jwt nodejs-design-patterns css scss oracle-sql+ mysql mariadb acid-+-serialization base solid dry-wet-kiss system-design react redux ldap active-directory jest cypress mocha chai people-management programme-management" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         rel="noreferrer" type="text/css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -21,11 +22,11 @@
                 Syed Ahmed Haider Shah
             </h2>
             <h6 class="border-bottom col-md-2 px-0 pt-0 pb-2 text-white">
-                Product Engineering Lead & Architect
+                Product Engineer, System Design Expert & Architect
             </h6>
             <h6>
-                <small class="text-white">Full stack Team Lead | Infrastructure & Solution Architect | IoT Hobbyist |
-                    Product Engineering Lead | Scrum Master</small>
+                <small class="text-white">Product Engineer | Infrastructure & Solution Architect | IoT Hobbyist |
+                    System Analyst & Design Expert | Scrum Master</small>
             </h6>
             <h5>
                 <small class="text-white">I fuel products.</small>
@@ -125,35 +126,66 @@
                     <span>intermediate</span>
                 </div>
             </div>
-            <div class="col-md-12 px-0 pt-3 mt-5 pb-2 border-bottom-theme">
-                <h4 class="text-theme font-weight-bold m-0">
-                    WORK EXPERIENCE
-                </h4>
-            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
             <div id="wp-container" class="p-2">
+                <div class="col-md-12 px-0 pt-3 mt-5 pb-2 border-bottom-theme">
+                    <h4 class="text-theme font-weight-bold m-0">
+                        WORK EXPERIENCE
+                    </h4>
+                </div>
                 <div v-for="(w, index) in wp" class="work-card col-md-12 p-4 c-card mb-2 mdc-ripple-surface"
                     v-bind:index="index" style="page-break-inside: avoid;">
                     <div class="col-md-12 px-0 py-1">
                         <h6 class="m-0 text-theme font-weight-bold d-flex justify-content-between">
                             <div class="header">
-                                <h3 class="small d-inline">Served as</h3> <b>{{w.servedAs}}</b>
+                                <h5 class="d-inline">
+                                    <b>
+                                        {{w.companyName}}
+                                    </b>
+                                </h5>
                             </div>
                             <div class="actions">
+                                <span v-bind:class="{'material-icons': true, 'd-none': true}">keyboard_arrow_down</span>
                                 <span
-                                    v-bind:class="{'material-icons': true, 'd-none': w.state}">keyboard_arrow_down</span>
-                                <span
-                                    v-bind:class="{'material-icons': true, 'd-none': !w.state, 'text-dark': true}">keyboard_arrow_up</span>
+                                    v-bind:class="{'material-icons': true, 'd-none': !true, 'text-dark': true}">keyboard_arrow_up</span>
                             </div>
                         </h6>
-                        <h6 class="m-0 company-name text-info mb-1" v-bind:attr="w.uri">
-                            {{w.companyName}}
-                        </h6>
-                        <div>
-                            <small>
-                                <i class="text-theme font-weight-bold">
-                                    {{w.duration}}
-                                </i>
-                            </small>
+                        <div v-if="typeof w.servedAs === 'string'" class="serving-section">
+                            <h4 class="m-0 company-name text-info mb-1" v-bind:attr="w.uri">
+                                Served as <b>{{w.servedAs}}</b>
+                            </h4>
+                            <div>
+                                <small>
+                                    <i class="text-theme font-weight-bold">
+                                        {{w.duration}}
+                                    </i>
+                                </small>
+                            </div>
+                        </div>
+                        <div v-if="typeof w.servedAs !== 'string'" class="serving-section">
+                            <div v-for="servedAs in w.servedAs" class="my-2">
+                                <h4 class="m-0 company-name text-info mb-1" v-bind:attr="w.uri">
+                                    <small>Served as</small> <b>{{servedAs.position}}</b>
+                                </h4>
+                                <div>
+                                    <small>
+                                        <i class="text-theme font-weight-bold">
+                                            {{servedAs.duration}}
+                                        </i>
+                                    </small>
+                                </div>
+                            </div>
                         </div>
                         <div class="my-2">
                             <small>
@@ -167,31 +199,37 @@
                                 <i class="text-theme font-weight-bold">
                                     Projects
                                 </i>
-                                <span v-if="!w.state" class="small ml-3 font-weight-bold text-theme">(Expand to view
+                                <span v-if="!true" class="small ml-3 font-weight-bold text-theme">(Expand to view
                                     ...)</span>
                             </small>
                         </div>
                         <div class="overflow-hidden transition-height"
-                            v-bind:style="{height: !w.state ? '0px!important' : 'auto!important'}">
+                            v-bind:style="{height: !true ? '0px!important' : 'auto!important'}">
                             <ul class="square-bullets">
-                                <li v-for="li in w.projects" class="my-3">
-                                    <div>{{li.name}}</div>
-                                    <div class="small">{{li.detail}}</div>
-                                    <div class="my-2">
-                                        <div class="small text-theme">Tools / Technologies</div>
-                                        <div class="d-flex tools-container flex-wrap p-2">
-                                            <div class="vertical-align-middle text-indent-auto tool-tech-card"
-                                                v-for="tool in li.tools">{{tool}}</div>
+                                <div v-if="w.projects.length">
+                                    <li v-for="li in w.projects" class="my-3">
+                                        <div>{{li.name}}</div>
+                                        <div class="small">{{li.detail}}</div>
+                                        <div class="my-2">
+                                            <div class="small text-theme">Tools / Technologies</div>
+                                            <div class="d-flex tools-container flex-wrap p-2">
+                                                <div v-for="tool in li.tools"
+                                                    class="vertical-align-middle text-indent-auto tool-tech-card">
+                                                    {{tool}}
+                                                </div>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="my-2">
-                                        <div class="small text-theme">Skills / Concepts:</div>
-                                        <div class="d-flex tools-container flex-wrap p-2">
-                                            <div class="vertical-align-middle text-indent-auto tool-tech-card"
-                                                v-for="skill in li.skills">{{skill}}</div>
+                                        <div class="mt-2 mb-4">
+                                            <div class="small text-theme">Skills / Concepts</div>
+                                            <div class="d-flex tools-container flex-wrap p-2">
+                                                <div v-for="skill in li.skills"
+                                                    class="vertical-align-middle text-indent-auto tool-tech-card">
+                                                    {{skill}}
+                                                </div>
+                                            </div>
                                         </div>
-                                    </div>
-                                </li>
+                                    </li>
+                                </div>
                             </ul>
                         </div>
                         <div>
@@ -199,12 +237,12 @@
                                 <i class="text-theme font-weight-bold">
                                     Achievements/Tasks
                                 </i>
-                                <span v-if="!w.state" class="small ml-3 font-weight-bold text-theme">(Expand to view
+                                <span v-if="!true" class="small ml-3 font-weight-bold text-theme">(Expand to view
                                     ...)</span>
                             </small>
                         </div>
                         <div class="overflow-hidden transition-height"
-                            v-bind:style="{height: !w.state ? '0px!important' : 'auto!important'}">
+                            v-bind:style="{height: !true ? '0px!important' : 'auto!important'}">
                             <ul class="square-bullets">
                                 <li v-for="li in w.tasksAchievements">
                                     <span class="vertical-align-middle">
@@ -251,6 +289,10 @@
             </div>
             <div class="col-md-12 px-0 py-2">
             </div>
+            <br>
+            <br>
+            <br>
+            <br>
             <div class="col-md-12 px-0 pt-3 pb-2 border-bottom-theme">
                 <h4 class="text-theme font-weight-bold m-0">
                     EDUCATION

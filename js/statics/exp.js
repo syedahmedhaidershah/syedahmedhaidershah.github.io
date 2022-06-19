@@ -1,8 +1,66 @@
 export const exp = [
     {
-        servedAs: 'Team Lead: Engineering & Architecture',
+        companyName: '433 Football',
+        servedAs: 'Senior Backend Engineer',
+        duration: '05/2021 - To Date',
+        companyProfile: '433 Football is largest football community in the world. My unit, Jogo.ai (Acquired by 433 Football) is an IoT and Data Analytics firm focusing on Data driven training and sports enhancement.',
+        uri: 'https://www.433football.com/',
+        projects: [
+            {
+                name: '433 Pro',
+                detail: 'A mapping of the Jogo.ai product to the 433 Football platform.',
+                tools: [
+                    'NodeJS',
+                    'Laravel',
+                    'AWS Lambda Functions',
+                    'AWS S3 Standard',
+                    'AWS EC2',
+                    'HTML5 (+ Browser APIs)',
+                    'Service Workers',
+                    'Express',
+                    'Socket.io',
+                    'Workbench',
+                    'MySQL',
+                    'AWS RDS',
+                    'AWS Amplify',
+                    'Vapor',
+                    'Bull MQ',
+                    'CSS',
+                    'WordPress',
+                    'Linux (Debian)',
+                    'Nginx',
+                    'Redis',
+                    'OpenSSL',
+                    'Github Actions',
+                ],
+                skills: [
+                    'SSH Proxy / Reverse Shell',
+                    'Jump-box',
+                    'Shell Scripting',
+                    'Cron',
+                    'Serverless',
+                    'OAuth',
+                    'Migrations'
+                ]
+            }
+        ],
+        tasksAchievements: [
+            'Successfully implemented a Serverless Node.JS API Mapping extending the Laravel API Platform used by 433 Pro',
+            'Part of team for 433 Pro Launch'
+        ]
+    },
+    {
         companyName: 'Liquid Technologies',
-        duration: '09/2021 - To Date',
+        servedAs: [
+            {
+                position: 'Consultant Senior Software Engineer, Architect and DevOps',
+                duration: '05/2021 - To Date',
+            },
+            {
+                position: 'Team Lead: Engineering & Architecture',
+                duration: '09/2021 - 05/2022',
+            }
+        ],
         companyProfile: 'Liquid Technology provides engineering solutions for corporates, encompassing data-science, embedded & software solutions.',
         uri: 'https://www.liqteq.com/',
         projects: [
@@ -12,8 +70,8 @@ export const exp = [
                 tools: [
                     'React (Functional)',
                     'NodeJS',
-                  'HTML5 (+ Browser APIs)',
-                     'Service Workers',
+                    'HTML5 (+ Browser APIs)',
+                    'Service Workers',
                     'Express',
                     'Socket.io',
                     'Workbench',
@@ -30,8 +88,8 @@ export const exp = [
                     'Redis',
                     'OpenSSL',
                     'Github Actions',
-                     'AWS S3 Standard',
-                     'AWS EC2',
+                    'AWS S3 Standard',
+                    'AWS EC2',
                 ],
                 skills: [
                     'SSH Proxy / Reverse Shell',
@@ -46,8 +104,8 @@ export const exp = [
                 tools: [
                     'React (Functional)',
                     'NodeJS',
-    'HTML5 (+ Browser APIs)',
-    'Service Workers',
+                    'HTML5 (+ Browser APIs)',
+                    'Service Workers',
                     'Express',
                     'Socket.io',
                     'PgAdmin',
@@ -73,8 +131,8 @@ export const exp = [
                 tools: [
                     'React (Functional)',
                     'NodeJS',
-    'HTML5 (+ Browser APIs)',
-    'Service Workers',
+                    'HTML5 (+ Browser APIs)',
+                    'Service Workers',
                     'Express',
                     'Socket.io',
                     'MongoDB',
@@ -85,14 +143,14 @@ export const exp = [
                     'Nginx',
                     'Redis',
                     'OpenSSL',
-                     'Linux',
+                    'Linux',
                 ],
                 skills: [
                     'SSH Proxy / Reverse Shell',
                     'Bastion',
                     'Shell Scripting',
                     'Cron',
-                     'Multi-Tenancy',
+                    'Multi-Tenancy',
                 ]
             }
         ],
@@ -175,52 +233,52 @@ export const exp = [
         duration: '09/2019 - 12/2020',
         companyProfile: 'A company carrying multiple mature products that are live, providing quality solutions in record time.',
         uri: '',
-        // projects: [
-        //     {
-        //         name: 'Scientise',
-        //         detail: '...',
-        //         tools: [
-        //             'Angular 2+ (8-9)',
-        //             'RxJS',
-        //             'React',
-        //             'NgRX',
-        //             'NodeJS',
-        //             'HTML5 (+ Browser APIs)',
-        //             'Service Workers',
-        //             'Express',
-        //             'Socket.io',
-        //             'MongoDB',
-        //             'Mongoose',
-        //             'Atlas Full Text Search',
-        //             'WebRTC',
-        //             'WebAssembly',
-        //             'Browser Media APIs',
-        //             'Bull MQ',
-        //             'CSS',
-        //             'SCSS',
-        //             'Nginx',
-        //             'Redis',
-        //             'OpenSSL',
-        //             'Github Actions',
-        //             'AWS Route53',
-        //             'AWS S3 Standard',
-        //             'AWS EC2',
-        //             'STUN',
-        //             'TURN',
-        //             'Media Gateway',
-        //             'VoxImplant',
-        //             'Wordpress',
-        //             'PHP',
-        //         ],
-        //         skills: [
-        //             'SSH Proxy / Reverse Shell',
-        //             'Bastion',
-        //             'Shell Scripting',
-        //             'Cron',
-        //             'System Administration'
-        //         ]
-        //     }
-        // ],
+        projects: [
+            //     {
+            //         name: 'Scientise',
+            //         detail: '...',
+            //         tools: [
+            //             'Angular 2+ (8-9)',
+            //             'RxJS',
+            //             'React',
+            //             'NgRX',
+            //             'NodeJS',
+            //             'HTML5 (+ Browser APIs)',
+            //             'Service Workers',
+            //             'Express',
+            //             'Socket.io',
+            //             'MongoDB',
+            //             'Mongoose',
+            //             'Atlas Full Text Search',
+            //             'WebRTC',
+            //             'WebAssembly',
+            //             'Browser Media APIs',
+            //             'Bull MQ',
+            //             'CSS',
+            //             'SCSS',
+            //             'Nginx',
+            //             'Redis',
+            //             'OpenSSL',
+            //             'Github Actions',
+            //             'AWS Route53',
+            //             'AWS S3 Standard',
+            //             'AWS EC2',
+            //             'STUN',
+            //             'TURN',
+            //             'Media Gateway',
+            //             'VoxImplant',
+            //             'Wordpress',
+            //             'PHP',
+            //         ],
+            //         skills: [
+            //             'SSH Proxy / Reverse Shell',
+            //             'Bastion',
+            //             'Shell Scripting',
+            //             'Cron',
+            //             'System Administration'
+            //         ]
+            //     }
+        ],
         tasksAchievements: [
             'Served as Scrum Master on multiple products.',
             'Provided Solution Architectures for several projects.',
@@ -239,18 +297,18 @@ export const exp = [
         companyProfile: 'Pulsate Technologies (Pulsatechs) is a tech company aimed at upgrading the standard of living for an increasingly technological society.',
         uri: '',
         projects: [
-            {
-                name: '...',
-                detail: '...',
-                tools: [],
-                skills: [
-                    'SSH Proxy / Reverse Shell',
-                    'Jump-box',
-                    'Bastion',
-                    'Shell Scripting',
-                    'Cron',
-                ]
-            }
+            //     {
+            //         name: '...',
+            //         detail: '...',
+            //         tools: [],
+            //         skills: [
+            //             'SSH Proxy / Reverse Shell',
+            //             'Jump-box',
+            //             'Bastion',
+            //             'Shell Scripting',
+            //             'Cron',
+            //         ]
+            //     }
         ],
         tasksAchievements: [
             'Head of Development for their products, \'Pluto\'.',
@@ -265,18 +323,6 @@ export const exp = [
         companyProfile: 'A service based company providing full-stack development & IoT consultancy as services.',
         uri: '',
         projects: [
-            {
-                name: '...',
-                detail: '...',
-                tools: [],
-                skills: [
-                    'SSH Proxy / Reverse Shell',
-                    'Jump-box',
-                    'Bastion',
-                    'Shell Scripting',
-                    'Cron',
-                ]
-            }
         ],
         tasksAchievements: [
             'Part of Development team for their first product, \'AutoSocket\'.',
