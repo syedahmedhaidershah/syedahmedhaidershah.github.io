@@ -22,15 +22,11 @@ export const exp = [
                     'Workbench',
                     'MySQL',
                     'AWS RDS',
-                    'AWS Amplify',
-                    'Vapor',
                     'Bull MQ',
                     'CSS',
-                    'WordPress',
                     'Linux (Debian)',
                     'Nginx',
                     'Redis',
-                    'OpenSSL',
                     'Github Actions',
                 ],
                 skills: [
@@ -64,6 +60,60 @@ export const exp = [
         companyProfile: 'Liquid Technology provides engineering solutions for corporates, encompassing data-science, embedded & software solutions.',
         uri: 'https://www.liqteq.com/',
         projects: [
+            {
+                name: 'TGS - Cedar AI API',
+                detail: 'A Node.JS API triggering an ETL pipeline to extract information and map to OLAP Databases',
+                tools: [
+                    'NodeJS',
+                    'MS SQL',
+                    'Azure Data Studio',
+                    'Express',
+                    'AWS RDS',
+                    'Bull MQ',
+                    'Linux (Debian)',
+                    'Nginx',
+                    'Redis',
+                    'OpenSSL',
+                    'Github Actions',
+                    'AWS S3 Standard',
+                    'AWS EC2',
+                ],
+                skills: [
+                    'SSH Proxy / Reverse Shell',
+                    'Jump-box',
+                    'Shell Scripting',
+                    'Cron',
+                    'ETL',
+                    'Data Mining',
+                    'Data Warehousing'
+                ]
+            },
+            {
+                name: 'Hiki',
+                detail: 'A Social platrform for the Autistic community',
+                tools: [
+                    'NodeJS',
+                    'PostgreSQL',
+                    'PG Admin',
+                    'TypeScript',
+                    'Go Lang',
+                    'Docker',
+                    'Hasura',
+                    'GraphQL',
+                    'Google Cloud Platform',
+                    'Firebase',
+                    'Jest'
+                ],
+                skills: [
+                    'SSH Proxy / Reverse Shell',
+                    'Jump-box',
+                    'Shell Scripting',
+                    'Cron',
+                    'ETL',
+                    'Data Mining',
+                    'Data Warehousing'
+                ]
+            },
             {
                 name: 'SmartRupee',
                 detail: 'A smart financing calculator and investment tool for B2B & B2C usage.',
@@ -99,7 +149,7 @@ export const exp = [
                 ]
             },
             {
-                name: 'TGS HRM & Operations',
+                name: 'TGS Employee Portal (HRM & Operations)',
                 detail: 'An on-prem HRM & Operations maangement system for Trans Global International.',
                 tools: [
                     'React (Functional)',
