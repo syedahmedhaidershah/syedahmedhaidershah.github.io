@@ -1,8 +1,17 @@
 export const exp = [
     {
         companyName: '433 Football',
-        servedAs: 'Senior Backend Engineer',
-        duration: '05/2021 - To Date',
+        servedAs: [
+            {
+                position: 'Senior Backend Engineer',
+                duration: '05/2022 - 06/2022'
+            },
+            {
+                position: 'Interim - Team Lead / Architect - Backend Engineering',
+                duration: '06/2022 - To Date'
+            },
+        ],
+        duration: '05/2022 - To Date',
         companyProfile: '433 Football is largest football community in the world. My unit, Jogo.ai (Acquired by 433 Football) is an IoT and Data Analytics firm focusing on Data driven training and sports enhancement.',
         uri: 'https://www.433football.com/',
         projects: [
@@ -15,15 +24,13 @@ export const exp = [
                     'AWS Lambda Functions',
                     'AWS S3 Standard',
                     'AWS EC2',
-                    'HTML5 (+ Browser APIs)',
+                    'AWS CodeDeploy',
                     'Service Workers',
                     'Express',
-                    'Socket.io',
                     'Workbench',
                     'MySQL',
                     'AWS RDS',
                     'Bull MQ',
-                    'CSS',
                     'Linux (Debian)',
                     'Nginx',
                     'Redis',
@@ -31,6 +38,42 @@ export const exp = [
                 ],
                 skills: [
                     'SSH Proxy / Reverse Shell',
+                    'Data Mining',
+                    'ACID',
+                    'Jump-box',
+                    'Shell Scripting',
+                    'Cron',
+                    'Serverless',
+                    'OAuth',
+                    'Migrations'
+                ]
+            },
+            {
+                name: '433 CMS',
+                detail: 'CMS for Home of Football',
+                tools: [
+                    'NodeJS',
+                    'AWS Lambda Functions',
+                    'AWS S3 Standard',
+                    'AWS ElastiCache',
+                    'AWS EC2',
+                    'AWS CodeDeploy',
+                    'AWS Elastic Transcoder',
+                    'Redis Stack',
+                    'Service Workers',
+                    'Express',
+                    'AWS RDS',
+                    'Bull MQ',
+                    'Linux (Debian)',
+                    'Nginx',
+                    'Redis',
+                    'Github Actions',
+                ],
+                skills: [
+                    'SSH Proxy / Reverse Shell',
+                    'Data Mining',
+                    'Data Redundancy',
+                    'BASE / ACID',
                     'Jump-box',
                     'Shell Scripting',
                     'Cron',
@@ -41,16 +84,22 @@ export const exp = [
             }
         ],
         tasksAchievements: [
-            'Successfully implemented a Serverless Node.JS API Mapping extending the Laravel API Platform used by 433 Pro',
-            'Part of team for 433 Pro Launch'
+            'Implemented a Serverless Node.JS API Mapping extending the Laravel API Platform used by 433 Pro',
+            'Part of team for 433 Pro Launch',
+            'Helped ship faster APIs with 5x reduced response times',
+            'Helped optimize DB Queries & Schemas to reduce query times by 3x',
+            'Helped ship applications with better architectures and resuablility',
+            'Helped integrate Caching for atleast 2x reduction in API response times',
+            'Helped enhance and integrate a proper Version Control Strategy & Flow for team Backend',
+            'Devised and integrated a baseline, yet proper reporting framework for team Backend',
         ]
     },
     {
         companyName: 'Liquid Technologies',
         servedAs: [
             {
-                position: 'Consultant Senior Software Engineer, Architect and DevOps',
-                duration: '05/2021 - To Date',
+                position: 'Consultant Senior Software Engineer',
+                duration: '05/2022 - 06/2022',
             },
             {
                 position: 'Team Lead: Engineering & Architecture',
