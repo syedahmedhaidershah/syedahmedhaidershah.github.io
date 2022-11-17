@@ -3,20 +3,20 @@ export const exp = [
         companyName: '433 Football',
         servedAs: [
             {
-                position: 'Senior Backend Engineer',
-                duration: '05/2022 - 06/2022'
+                position: 'Backend Engineering - Lead (Probation)',
+                duration: '07/2022 - To Date'
             },
             {
-                position: 'Interim - Team Lead / Architect - Backend Engineering',
-                duration: '06/2022 - To Date'
+                position: 'Senior Backend Engineer',
+                duration: '05/2022 - To Date'
             },
         ],
         duration: '05/2022 - To Date',
-        companyProfile: '433 Football is largest football community in the world. My unit, Jogo.ai (Acquired by 433 Football) is an IoT and Data Analytics firm focusing on Data driven training and sports enhancement.',
+        companyProfile: '433 Football is one of the largest football communities accross the globe working on Football News, IoT and Data Analytics.',
         uri: 'https://www.433football.com/',
         projects: [
             {
-                name: '433 Pro',
+                name: '433 Pro (Formerly Jogo.ai)',
                 detail: 'A mapping of the Jogo.ai product to the 433 Football platform.',
                 tools: [
                     'NodeJS',
@@ -81,15 +81,21 @@ export const exp = [
                     'OAuth',
                     'Migrations'
                 ]
+            },
+            {
+                name: '433 Home of Football Backend',
+                detail: 'Backend applications and infrastructure for the 433 HoF app, coupled with the 433 CMS',
             }
         ],
         tasksAchievements: [
+            'Helped the App & Infra to scale and support 10x more users till BREAKPOINT, under a quarter\'s period',
             'Implemented a Serverless Node.JS API Mapping extending the Laravel API Platform used by 433 Pro',
-            'Part of team for 433 Pro Launch',
-            'Helped ship faster APIs with 5x reduced response times',
-            'Helped optimize DB Queries & Schemas to reduce query times by 3x',
-            'Helped ship applications with better architectures and resuablility',
-            'Helped integrate Caching for atleast 2x reduction in API response times',
+            'Expanded legacy 433Pro (formerly Jogo.ai) to new NodeJS backend while offering data aggregation pipelines.',
+            'Helped ship faster APIs with 5x reduced average response times',
+            'Increased API throughoputs by 8x',
+            'Engineered and led Home of Football to host several hundreds of thousands of clients while increasing stability, introducing distributed computing, event-driven infrastructure, CQRS and microservices.',
+            'Helped optimize DB Queries & Schemas to reduce query times by 27x',
+            'Helped integrate Caching for atleast 2x reduction in API response times even at scale',
             'Helped enhance and integrate a proper Version Control Strategy & Flow for team Backend',
             'Devised and integrated a baseline, yet proper reporting framework for team Backend',
         ]
