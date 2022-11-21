@@ -151,3 +151,7 @@ ul.square-bullets {
     padding: 0.25rem 1rem;
     margin: 0.5rem 0;
 }
+
+.w-33 {
+    width: 33%!important;
+}
