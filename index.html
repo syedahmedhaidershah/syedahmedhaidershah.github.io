@@ -193,32 +193,30 @@
                                     <div class="small">{{li.detail}}</div>
                                 </div>
                             </div>
-                            <!-- <ul class="square-bullets">
-                                <div v-if="w.projects.length">
-                                    <li v-for="li in w.projects" class="my-3">
-                                        <div>{{li.name}}</div>
-                                        <div class="small">{{li.detail}}</div> -->
-                                        <!-- <div class="my-2">
-                                            <div class="small text-theme">Tools / Technologies</div>
-                                            <div class="d-flex tools-container flex-wrap p-2">
-                                                <div v-for="tool in li.tools"
-                                                    class="vertical-align-middle text-indent-auto tool-tech-card">
-                                                    {{tool}}
-                                                </div>
-                                            </div>
-                                        </div> -->
-                                        <!-- <div class="mt-2 mb-4">
-                                            <div class="small text-theme">Skills / Concepts</div>
-                                            <div class="d-flex tools-container flex-wrap p-2">
-                                                <div v-for="skill in li.skills"
-                                                    class="vertical-align-middle text-indent-auto tool-tech-card">
-                                                    {{skill}}
-                                                </div>
-                                            </div>
-                                        </div> -->
-                                    <!-- </li>
-                                </div>
-                            </ul> -->
+                        </div>
+                        <div v-if="w.technicalSkills.length" class="mt-2">
+                            <small>
+                                <i class="text-theme font-weight-bold">
+                                    Technical Skills
+                                </i>
+                                <span v-if="!true" class="sm all ml-3 font-weight-bold text-theme">(Expand to view
+                                    ...)</span>
+                            </small>
+                        </div>
+                        <div v-if="w.projects.length">
+                            <span v-for="ts in w.technicalSkills">{{ts.skill}}&nbsp;&nbsp;<b>-</b>&nbsp;&nbsp;</span>
+                        </div>
+                        <div v-if="w.conceptualSkills.length" class="mt-2">
+                            <small>
+                                <i class="text-theme font-weight-bold">
+                                    Conceptual Skills
+                                </i>
+                                <span v-if="!true" class="sm all ml-3 font-weight-bold text-theme">(Expand to view
+                                    ...)</span>
+                            </small>
+                        </div>
+                        <div v-if="w.projects.length">
+                            <span v-for="cs in w.conceptualSkills">{{cs.skill}}&nbsp;&nbsp;<b>-</b>&nbsp;&nbsp;</span>
                         </div>
                         <div class="mt-1">
                             <small>
