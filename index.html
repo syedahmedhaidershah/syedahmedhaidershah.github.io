@@ -33,34 +33,34 @@
                 <small class="text-white">I fuel products.</small>
             </h5>
         </div>
-        <div class="p-5 body">
-            <div class="col-md-12 px-0 mt-5 pt-3 pb-2 mb-2 border-bottom-theme">
+        <div class="px-5 py-1 body">
+            <div class="col-md-12 px-0 mt-2 pt-3 pb-2 mb-2 border-bottom-theme">
                 <h4 class="text-theme font-weight-bold m-0">
                     CONTACT
                 </h4>
             </div>
-            <div class="d-flex flex-wrap p-5 c-card mb-2">
-                <div class="w-50 py-3">
+            <div class="d-flex flex-wrap p-2 c-card mb-2">
+                <div class="w-33 py-3">
                     <i class="vertical-align-middle material-icons text-theme mr-3">email</i>
                     <span class="vertical-align-middle">
                         <a href="mailto:syedahmedhaidershah@yahoo.com" class="no-decor"
                             target="_blank">syedahmedhaidershah@yahoo.com</a>
                     </span>
                 </div>
-                <div class="w-50 py-3">
+                <div class="w-33 py-3">
                     <i class="vertical-align-middle material-icons text-theme mr-3">stay_primary_portrait</i>
                     <span class="vertical-align-middle">
                         <a href="tel:+923003573769" class="no-decor" target="_blank">+923003573769</a>
                     </span>
                 </div>
-                <div class="w-50 py-3">
+                <div class="w-33 py-3">
                     <i class="vertical-align-middle material-icons text-theme mr-3">place</i><span
                         class="vertical-align-middle">
                         <a href="https://goo.gl/maps/Pf9tSkBjEVtk5GJK7" class="no-decor" target="_blank">
                             Karachi, Pakistan</a>
                     </span>
                 </div>
-                <div class="w-50 py-3">
+                <div class="w-33 py-3">
                     <img class="vertical-align-middle material-icons text-theme mr-3" src="./assets/img/linkedin.png">
                     <span class="vertical-align-middle">
                         <a href="https://linkedin.com/in/syedahmedhaidershah" target="_blank" class="no-decor">
@@ -68,16 +68,15 @@
                         </a>
                     </span>
                 </div>
-                <div class="w-50 py-3">
-                    <img class="vertical-align-middle material-icons text-theme mr-3"
-                        src="./assets/img/twitter.png">
+                <div class="w-33 py-3">
+                    <img class="vertical-align-middle material-icons text-theme mr-3" src="./assets/img/twitter.png">
                     <span class="vertical-align-middle">
                         <a href="https://twitter.com/SAHS9996" target="_blank" class="no-decor">
                             twitter.com/SAHS9996
                         </a>
                     </span>
                 </div>
-                <div class="w-50 py-3">
+                <div class="w-33 py-3">
                     <img class="vertical-align-middle material-icons text-theme mr-3"
                         src="./GitHub-Mark/PNG/GitHub-Mark-24.png" />
                     <span class="vertical-align-middle">
@@ -87,12 +86,12 @@
                     </span>
                 </div>
             </div>
-            <div class="col-md-12 px-0 mt-5 pt-3 pb-2 border-bottom-theme">
+            <!-- <div class="col-md-12 px-0 mt-5 pt-3 pb-2 border-bottom-theme">
                 <h4 class="text-theme font-weight-bold m-0">
                     SKILLS
                 </h4>
-            </div>
-            <div id="skills-container" class="col-md-12 px-0 py-3">
+            </div> -->
+            <!-- <div id="skills-container" class="col-md-12 px-0 py-3">
                 <div class="col-md-12 row mx-0 mt-0 mb-2 p-0">
                     <div v-for="s in skills" class="p-2 rounded m-1"
                         v-bind:class="{'bg-dark': (s.level === 'raw'), 'bg-theme': s.level === 'intermediate', 'bg-success-dark': s.level === 'senior'}">
@@ -100,8 +99,8 @@
                     </div>
 
                 </div>
-            </div>
-            <div class="pt-2 pb-1 px-4 font-weight-bold">
+            </div> -->
+            <!-- <div class="pt-2 pb-1 px-4 font-weight-bold">
                 Proficiency
             </div>
             <div class="col-12 d-flex pt-1 px-2 pb-2 mb-2 align-items-center break-page-after">
@@ -117,8 +116,8 @@
                     <div class="legend-color-patch mr-2 bg-dark"></div>
                     <span>intermediate</span>
                 </div>
-            </div>
-            <div id="wp-container" class="p-2" style="page-break-inside: avoid;">
+            </div> -->
+            <div id="wp-container" class="p-2">
                 <div class="col-md-12 px-2 py-3 border-bottom-theme">
                     <h4 class="text-theme font-weight-bold m-0">
                         WORK EXPERIENCE
@@ -141,23 +140,30 @@
                                     v-bind:class="{'material-icons': true, 'd-none': !true, 'text-dark': true}">keyboard_arrow_up</span>
                             </div>
                         </h6>
+                        <div class="my-2">
+                            <small>
+                                <i>
+                                    {{w.companyProfile}}
+                                </i>
+                            </small>
+                        </div>
                         <div v-if="typeof w.servedAs === 'string'" class="serving-section">
-                            <h4 class="m-0 company-name text-info mb-1" v-bind:attr="w.uri">
+                            <h6 class="m-0 company-name text-info mb-1" v-bind:attr="w.uri">
                                 Served as <b>{{w.servedAs}}</b>
-                            </h4>
-                            <div>
-                                <small>
-                                    <i class="text-theme font-weight-bold">
-                                        {{w.duration}}
-                                    </i>
-                                </small>
-                            </div>
+                                </h5>
+                                <div>
+                                    <small>
+                                        <i class="text-theme font-weight-bold">
+                                            {{w.duration}}
+                                        </i>
+                                    </small>
+                                </div>
                         </div>
                         <div v-if="typeof w.servedAs !== 'string'" class="serving-section">
                             <div v-for="servedAs in w.servedAs" class="my-2">
-                                <h4 class="m-0 company-name text-info mb-1" v-bind:attr="w.uri">
+                                <h5 class="m-0 company-name text-info mb-1" v-bind:attr="w.uri">
                                     <small>Served as</small> <b>{{servedAs.position}}</b>
-                                </h4>
+                                </h5>
                                 <div>
                                     <small>
                                         <i class="text-theme font-weight-bold">
@@ -166,13 +172,6 @@
                                     </small>
                                 </div>
                             </div>
-                        </div>
-                        <div class="my-2">
-                            <small>
-                                <i>
-                                    {{w.companyProfile}}
-                                </i>
-                            </small>
                         </div>
                         <div>
                             <small>
@@ -185,11 +184,20 @@
                         </div>
                         <div class="overflow-hidden transition-height"
                             v-bind:style="{height: !true ? '0px!important' : 'auto!important'}">
-                            <ul class="square-bullets">
+                            <div v-if="!w.projects.length">
+                                Service industry.
+                            </div>
+                            <div v-if="w.projects.length" class="d-flex justify-content-between">
+                                <div v-for="li in w.projects" class="c-card py-2 px-3 m-1">
+                                    <b>{{li.name}}</b>
+                                    <div class="small">{{li.detail}}</div>
+                                </div>
+                            </div>
+                            <!-- <ul class="square-bullets">
                                 <div v-if="w.projects.length">
                                     <li v-for="li in w.projects" class="my-3">
                                         <div>{{li.name}}</div>
-                                        <div class="small">{{li.detail}}</div>
+                                        <div class="small">{{li.detail}}</div> -->
                                         <!-- <div class="my-2">
                                             <div class="small text-theme">Tools / Technologies</div>
                                             <div class="d-flex tools-container flex-wrap p-2">
@@ -208,11 +216,11 @@
                                                 </div>
                                             </div>
                                         </div> -->
-                                    </li>
+                                    <!-- </li>
                                 </div>
-                            </ul>
+                            </ul> -->
                         </div>
-                        <div>
+                        <div class="mt-1">
                             <small>
                                 <i class="text-theme font-weight-bold">
                                     Achievements/Tasks

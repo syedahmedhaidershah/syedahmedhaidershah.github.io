@@ -87,6 +87,43 @@ export const exp = [
                 detail: 'Backend applications and infrastructure for the 433 HoF app, coupled with the 433 CMS',
             }
         ],
+        technicalSkills: [
+            { skill: 'AWS' },
+            { skill: 'MongoDB Atlas' },
+            { skill: 'Firebase' },
+            { skill: 'Google Cloud Platform' },
+            { skill: 'DevOps' },
+            { skill: 'CloudOps' },
+            { skill: 'CI/CD' },
+            { skill: 'Github Actions' },
+            { skill: 'Docker' },
+            { skill: 'Javascript' },
+            { skill: 'Nginx' },
+            { skill: 'Linux' },
+            { skill: 'Git' },
+            { skill: 'Socket.io' },
+            { skill: 'Node.js' },
+            { skill: 'MySQL' },
+            { skill: 'Laravel' },
+            { skill: 'Jest' },
+            { skill: 'Chai' },
+            { skill: 'Mocha' },
+            { skill: 'Sentry' },
+            { skill: 'Redis' },
+            { skill: 'Slack-hooks' },
+            { skill: 'Jira' },
+        ],
+        conceptualSkills: [
+            { skill: 'Infrastructure Architecture Design' },
+            { skill: 'Cloud Architecture Design' },
+            { skill: 'Solution Architecture Design' },
+            { skill: 'CQRS' },
+            { skill: 'Microservices' },
+            { skill: 'Event-sourcing' },
+            { skill: 'Caching' },
+            { skill: 'Message-queues' },
+            { skill: 'Message-queues' },
+        ],
         tasksAchievements: [
             'Helped the App & Infra to scale and support 10x more users till BREAKPOINT, under a quarter\'s period',
             'Implemented a Serverless Node.JS API Mapping extending the Laravel API Platform used by 433 Pro',
@@ -259,6 +296,8 @@ export const exp = [
                 ]
             }
         ],
+        technicalSkills: [],
+        conceptualSkills: [],
         tasksAchievements: [
             'Onboarded and provided System & Architecture solutions to  IoT related data problems in Procheck (Sarmayakaar Funded Platform)',
             'Streamlined the delivery of SmartRupee, an Elphinsotne Platform as a Consultant Engineering Lead',
@@ -318,6 +357,8 @@ export const exp = [
                 ]
             }
         ],
+        technicalSkills: [],
+        conceptualSkills: [],
         tasksAchievements: [
             'Designed extremely high throughput ingestion APIs with high availability and less than 500ms response times for C10K.',
             'Enhanced Aggregation Pipelines for MongoDB to increase database performance and reduce query resolution times for ~4 seconds to about ~120ms.',
@@ -384,6 +425,8 @@ export const exp = [
             //         ]
             //     }
         ],
+        technicalSkills: [],
+        conceptualSkills: [],
         tasksAchievements: [
             'Served as Scrum Master on multiple products.',
             'Provided Solution Architectures for several projects.',
@@ -415,6 +458,8 @@ export const exp = [
             //         ]
             //     }
         ],
+        technicalSkills: [],
+        conceptualSkills: [],
         tasksAchievements: [
             'Head of Development for their products, \'Pluto\'.',
             'Designed highly scalable and secure IoT systems, powered by Raspberry Pi, Arduino & NodeJS.',
@@ -429,6 +474,8 @@ export const exp = [
         uri: '',
         projects: [
         ],
+        technicalSkills: [],
+        conceptualSkills: [],
         tasksAchievements: [
             'Part of Development team for their first product, \'AutoSocket\'.',
             'Went through extreme technical growth in that period, gaining hands-on experience with multiple tools & technologies.',
