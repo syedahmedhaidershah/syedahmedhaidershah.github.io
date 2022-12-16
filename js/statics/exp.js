@@ -131,7 +131,7 @@ export const exp = [
             { skill: 'Data Warehousing' },
         ],
         tasksAchievements: [
-            'Helped the App & Infra to scale and support 10x more users till BREAKPOINT, under a quarter\'s period',
+            'Helped the App & Infra to scale and 1Million+ users till BREAKPOINT, under a quarter\'s period',
             'Expanded legacy 433Pro (formerly Jogo.ai) to new NodeJS backend while offering data aggregation pipelines.',
             'Helped ship faster APIs with 5x reduced average response times',
             'Increased API throughoputs by 8x',
