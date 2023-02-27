@@ -218,7 +218,7 @@
                         <div v-if="w.projects.length">
                             <span v-for="cs in w.conceptualSkills">{{cs.skill}}&nbsp;&nbsp;<b>-</b>&nbsp;&nbsp;</span>
                         </div>
-                        <div class="mt-1">
+                        <div v-if="w.tasksAchievements.length" class="mt-1">
                             <small>
                                 <i class="text-theme font-weight-bold">
                                     Achievements/Tasks
