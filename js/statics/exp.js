@@ -1,9 +1,9 @@
 export const exp = [
     {
-        companyName: '433 Football',
+        companyName: '433 Football (CloudPrimero x 433)',
         servedAs: [
             {
-                position: 'Backend Engineering - Lead (Probation)',
+                position: 'Engineering Lead - Backend',
                 duration: '07/2022 - To Date'
             },
             {
@@ -12,7 +12,7 @@ export const exp = [
             },
         ],
         duration: '05/2022 - To Date',
-        companyProfile: '433 Football is one of the largest football communities accross the globe working on Football News, IoT and Data Analytics.',
+        companyProfile: '433 Football is one of the largest football communities accross the globe working on Football News, IoT and Data Analytics. (Outsourced via CloudPrimero B.V)',
         uri: 'https://www.433football.com/',
         projects: [
             {
@@ -484,14 +484,14 @@ export const exp = [
         technicalSkills: [],
         conceptualSkills: [],
         tasksAchievements: [
-            'Served as Scrum Master on multiple products.',
-            'Provided Solution Architectures for several projects.',
-            'Lead production of 2 live international products including Hikma Online & Digitest Netherlands.',
-            'Managed rapid development pipeline for custom projects & requests.',
-            'Requriements engineering for products.',
-            'Product Management & Development including managing scurm backlogs.',
-            'Automated CI/CD pipelines design & management.',
-            'Design and integration of Produce-Test-Package-Release-Ship pipeline for fast deliveries.'
+            // 'Served as Scrum Master on multiple products.',
+            // 'Provided Solution Architectures for several projects.',
+            // 'Lead production of 2 live international products including Hikma Online & Digitest Netherlands.',
+            // 'Managed rapid development pipeline for custom projects & requests.',
+            // 'Requriements engineering for products.',
+            // 'Product Management & Development including managing scurm backlogs.',
+            // 'Automated CI/CD pipelines design & management.',
+            // 'Design and integration of Produce-Test-Package-Release-Ship pipeline for fast deliveries.'
         ]
     },
     {
@@ -517,9 +517,9 @@ export const exp = [
         technicalSkills: [],
         conceptualSkills: [],
         tasksAchievements: [
-            'Head of Development for their products, \'Pluto\'.',
-            'Designed highly scalable and secure IoT systems, powered by Raspberry Pi, Arduino & NodeJS.',
-            'Provided software solutions to multiple factories and SMEs in Karachi.'
+            // 'Head of Development for their products, \'Pluto\'.',
+            // 'Designed highly scalable and secure IoT systems, powered by Raspberry Pi, Arduino & NodeJS.',
+            // 'Provided software solutions to multiple factories and SMEs in Karachi.'
         ]
     },
     {
@@ -533,9 +533,9 @@ export const exp = [
         technicalSkills: [],
         conceptualSkills: [],
         tasksAchievements: [
-            'Part of Development team for their first product, \'AutoSocket\'.',
-            'Went through extreme technical growth in that period, gaining hands-on experience with multiple tools & technologies.',
-            'Worked on Varsity Maps, an application deployed in Indian River State College.'
+            // 'Part of Development team for their first product, \'AutoSocket\'.',
+            // 'Went through extreme technical growth in that period, gaining hands-on experience with multiple tools & technologies.',
+            // 'Worked on Varsity Maps, an application deployed in Indian River State College.'
         ]
     }
 ]
