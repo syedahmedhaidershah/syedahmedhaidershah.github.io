@@ -1,8 +1,15 @@
+import Vue from 'https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.esm.browser.js';
+
 import { skills } from "./statics/skills.js";
+
 import { exp as wp } from "./statics/exp.js";
-import Vue from 'https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.esm.browser.js'
+
 
 class CV {
+    components = {
+        workduration: null    
+    };
+
     buff = {
         skills: [],
         wp: []
@@ -20,26 +27,31 @@ class CV {
             return { ...workExperience, state: !index }
         });
 
-        this.buff.skills = new Vue({
-            el: '#skills-container',
-            data: {
-                skills
-            }
-        })
+        // this.buff.skills = new Vue({
+        //     el: '#skills-container',
+        //     data: {
+        //         skills
+        //     }
+        // });
+
         this.buff.wp = new Vue({
             el: '#wp-container',
             data: {
                 wp: useWp
-            }
+            },
+            components: this.components
         });
 
         this.setAttr();
     }
 
     setAttr = () => {
+        
         this.setUpCompanyNames();
-
+        
         this.setUpWorkExperienceCards();
+        
+        this.setupComponents();
     }
 
     setUpCompanyNames = () => {
@@ -65,7 +77,7 @@ class CV {
         const workCards = Array.from(
             document.getElementsByClassName('work-card')
         );
-      
+
         for (let workCard of workCards) {
             workCard.onclick = ($e) => {
                 const indexRetreived = workCard.getAttribute('index');
@@ -90,7 +102,40 @@ class CV {
 
         window.open(uri, '_blank').focus();
     }
+
+    setupComponents = () => {
+        const workDurationElements = Array.from(
+            document.getElementsByClassName('.work-duration')
+        );
+
+        for(elementIndex in workDurationElements) {
+            
+            var vm = new Vue({
+                el: `#work-duration-${elementIndex}`,
+            });
+
+            Vue
+                .component(
+                    'workduration',
+                    {
+                        template: `
+                            <h1>{{duration}}</h1
+                        `,
+                        props: {
+                            duration: String
+                        },
+                        data() {
+                            return {
+                                message: 'hey'
+                            }
+                        }
+                    },
+                )
+
+        }
+    }
 }
 
 const cv = new CV();
+
 cv.init();

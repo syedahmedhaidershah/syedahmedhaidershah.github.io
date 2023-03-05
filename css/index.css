@@ -24,7 +24,7 @@ div {
 
 .text-theme {
     --webkit-print-color-adjust: exact;
-    color: #06508d !important;
+    color: #06508d!important;
 }
 
 .main {
@@ -148,10 +148,15 @@ ul.square-bullets {
 
 .serving-section {
     border-left: 2px solid #27a9cf;
-    padding: 0.25rem 1rem;
+    padding: 0rem 1rem;
     margin: 0.5rem 0;
 }
 
 .w-33 {
     width: 33%!important;
+}
+
+.two-columns {
+    column-count: 2;
+    column-gap: 20px;
 }

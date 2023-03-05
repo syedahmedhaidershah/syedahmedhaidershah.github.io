@@ -3,15 +3,32 @@
         --webkit-print-color-adjust: exact;
         background-color: #06508d;
     }
+
     .text-theme {
         --webkit-print-color-adjust: exact;
-        color: #06508d!important;
+        color: #06508d !important;
     }
+
     .text-white {
         --webkit-print-color-adjust: exact;
-        color: #ffffff!important;
+        color: #ffffff !important;
     }
+
     .break-page-after {
-        page-break-after: always!important;
+        page-break-after: always !important;
     }
+
+    body {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
+
+@page {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
