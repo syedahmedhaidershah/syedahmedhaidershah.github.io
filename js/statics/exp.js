@@ -1,10 +1,133 @@
 export const exp = [
     {
+        companyName: '10Up LLC.',
+        servedAs: [
+            {
+                position: 'Systems Engineer',
+                duration: '07/2022 - To Date'
+            },
+        ],
+        duration: '10 Months',
+        companyProfile: '10Up make the web better by finely crafting websites & tools for content creators.',
+        uri: 'https://10up.com/',
+        projects: [
+        ],
+        technicalSkills: [
+            { skill: 'Ansible' },
+            { skill: 'AWS' },
+            { skill: 'DevOps' },
+            { skill: 'CloudOps' },
+            { skill: 'CI/CD' },
+            { skill: 'Github Actions' },
+            { skill: 'DataDog' },
+            { skill: 'Docker' },
+            { skill: 'ElasticSearch' },
+            { skill: 'Git' },
+            { skill: 'Helm' },
+            { skill: 'Javascript' },
+            { skill: 'Jest' },
+            { skill: 'Jira' },
+            { skill: 'Kubernetes' },
+            { skill: 'Linux' },
+            { skill: 'Laravel' },
+            { skill: 'MySQL' },
+            { skill: 'Nginx' },
+            { skill: 'Node.js' },
+            { skill: 'Terraform' },
+            { skill: 'TDD' },
+            { skill: 'Shell scripting' },
+            { skill: 'Redis' },
+        ],
+        conceptualSkills: [
+            { skill: 'Infrastructure Architecture Design' },
+            { skill: 'Cloud Architecture Design' },
+            { skill: 'Solution Architecture Design' },
+            // { skill: 'CQRS' },
+            { skill: 'Microservices & Decomposition + Arch Patterns' },
+            // { skill: 'Event-sourcing' },
+            { skill: 'Caching' },
+            // { skill: 'Message-queues' },
+            // { skill: 'Jump-box' },
+            { skill: 'Shell Scripting' },
+            // { skill: 'Cron' },
+            // { skill: 'ETL' },
+            // { skill: 'Data Mining' },
+            { skill: 'Data Warehousing' },
+        ],
+        tasksAchievements: [
+            'Helped enhance and integrate a proper Version Control Strategy & Flow for team Backend',
+        ]
+    },
+    {
+        companyName: 'CloudPrimero',
+        servedAs: [
+            {
+                position: 'Engineering Lead - Backend',
+                duration: '07/2022 - 08/2023'
+            },
+            {
+                position: 'Senior Backend Engineer',
+                duration: '05/2022 - 07/2022'
+            },
+        ],
+        duration: '10 Months',
+        companyProfile: 'Cloud Primero is a technology consulting and services company that helps build digital solutions and implement digital transformation initiatives using the latest in big data, cloud services, AI, and cutting-edge custom application development services.',
+        uri: 'https://cloudprimero.com/',
+        projects: [
+        ],
+        technicalSkills: [
+            { skill: 'AWS' },
+            { skill: 'MongoDB' },
+            // { skill: 'Firebase' },
+            // { skill: 'Google Cloud Platform' },
+            // { skill: 'DevOps' },
+            { skill: 'CloudOps' },
+            // { skill: 'CI/CD' },
+            // { skill: 'Github Actions' },
+            { skill: 'Docker' },
+            { skill: 'Javascript' },
+            // { skill: 'Nginx' },
+            // { skill: 'Linux' },
+            // { skill: 'Git' },
+            // { skill: 'Socket.io' },
+            { skill: 'Node.js' },
+            // { skill: 'MySQL' },
+            // { skill: 'Laravel' },
+            { skill: 'TDD' },
+            // { skill: 'Jest' },
+            // { skill: 'Chai' },
+            // { skill: 'Mocha' },
+            // { skill: 'Sentry' },
+            { skill: 'Redis' },
+            // { skill: 'Slack-hooks' },
+            // { skill: 'Jira' },
+        ],
+        conceptualSkills: [
+            { skill: 'Infrastructure Architecture Design' },
+            { skill: 'Cloud Architecture Design' },
+            { skill: 'Solution Architecture Design' },
+            // { skill: 'CQRS' },
+            { skill: 'Microservices & Decomposition + Arch Patterns' },
+            // { skill: 'Event-sourcing' },
+            { skill: 'Caching' },
+            // { skill: 'Message-queues' },
+            // { skill: 'Jump-box' },
+            { skill: 'Shell Scripting' },
+            // { skill: 'Cron' },
+            // { skill: 'ETL' },
+            // { skill: 'Data Mining' },
+            { skill: 'Data Warehousing' },
+        ],
+        tasksAchievements: [
+            'Helped enhance and integrate a proper Version Control Strategy & Flow for team Backend',
+        ]
+    },
+    {
         companyName: '433 Football (CloudPrimero x 433)',
         servedAs: [
             {
                 position: 'Engineering Lead - Backend',
-                duration: '07/2022 - To Date'
+                duration: '07/2022 - 02/2023'
             },
             {
                 position: 'Senior Backend Engineer',
@@ -132,79 +255,12 @@ export const exp = [
         ],
         tasksAchievements: [
             'Helped the App & Infra to scale and 1Million+ users till BREAKPOINT, under a quarter\'s period',
+            'Led a team of 11 cross functional backend & cloud engineers',
             // 'Expanded legacy 433Pro (formerly Jogo.ai) to new NodeJS backend while offering data aggregation pipelines.',
-            'Helped ship faster APIs with 5x reduced average response times. Increased API throughoputs by 8x. Helped optimize DB Queries & Schemas to reduce query times by 27x',
+            'Helped ship faster APIs with 5x reduced average response times. Increased API throughputs by 8x. Helped optimize DB Queries & Schemas to reduce query times by 27x',
             // 'Helped enhance and integrate a proper Version Control Strategy & Flow for team Backend',
         ]
     },
-    // {
-    //     companyName: 'CloudPrimero',
-    //     servedAs: [
-    //         {
-    //             position: 'Engineering Lead - Backend',
-    //             duration: '07/2022 - To Date'
-    //         },
-    //         {
-    //             position: 'Senior Backend Engineer',
-    //             duration: '05/2022 - 07/2022'
-    //         },
-    //     ],
-    //     duration: '10 Months',
-    //     companyProfile: 'Cloud Primero is a technology consulting and services company that helps build digital solutions and implement digital transformation initiatives using the latest in big data, cloud services, AI, and cutting-edge custom application development services.',
-    //     uri: 'https://cloudprimero.com/',
-    //     projects: [
-    //         {
-    //             name: '433 Home of Football Backend',
-    //             detail: '433 Backend applications and infrastructure for the 433 HoF app, coupled with the 433 CMS',
-    //         }
-    //     ],
-    //     technicalSkills: [
-    //         { skill: 'AWS' },
-    //         { skill: 'MongoDB' },
-    //         // { skill: 'Firebase' },
-    //         // { skill: 'Google Cloud Platform' },
-    //         // { skill: 'DevOps' },
-    //         { skill: 'CloudOps' },
-    //         // { skill: 'CI/CD' },
-    //         // { skill: 'Github Actions' },
-    //         { skill: 'Docker' },
-    //         { skill: 'Javascript' },
-    //         // { skill: 'Nginx' },
-    //         // { skill: 'Linux' },
-    //         // { skill: 'Git' },
-    //         // { skill: 'Socket.io' },
-    //         { skill: 'Node.js' },
-    //         // { skill: 'MySQL' },
-    //         // { skill: 'Laravel' },
-    //         { skill: 'TDD' },
-    //         // { skill: 'Jest' },
-    //         // { skill: 'Chai' },
-    //         // { skill: 'Mocha' },
-    //         // { skill: 'Sentry' },
-    //         { skill: 'Redis' },
-    //         // { skill: 'Slack-hooks' },
-    //         // { skill: 'Jira' },
-    //     ],
-    //     conceptualSkills: [
-    //         { skill: 'Infrastructure Architecture Design' },
-    //         { skill: 'Cloud Architecture Design' },
-    //         { skill: 'Solution Architecture Design' },
-    //         // { skill: 'CQRS' },
-    //         { skill: 'Microservices & Decomposition + Arch Patterns' },
-    //         // { skill: 'Event-sourcing' },
-    //         { skill: 'Caching' },
-    //         // { skill: 'Message-queues' },
-    //         // { skill: 'Jump-box' },
-    //         { skill: 'Shell Scripting' },
-    //         // { skill: 'Cron' },
-    //         // { skill: 'ETL' },
-    //         // { skill: 'Data Mining' },
-    //         { skill: 'Data Warehousing' },
-    //     ],
-    //     tasksAchievements: [
-    //         'Helped enhance and integrate a proper Version Control Strategy & Flow for team Backend',
-    //     ]
-    // },
     {
         companyName: 'Liquid Technologies',
         servedAs: [
@@ -423,6 +479,7 @@ export const exp = [
             }
         ],
         tasksAchievements: [
+            'Led a team 5 cross-functional full-stack and cloud engineers',
             // 'Onboarded and provided System & Architecture solutions to  IoT related data problems in Procheck (Sarmayakaar Funded Platform)',
             // 'Streamlined the delivery of SmartRupee, an Elphinsotne Platform as a Consultant Engineering Lead',
             'Onboarded and provided System & Achitecture solutions to multiple clients with streamlined deliveries',
@@ -437,7 +494,12 @@ export const exp = [
         ]
     },
     {
-        servedAs: 'Full-Stack Team Lead, Architect, Scrum Master',
+        servedAs: [
+            {
+                position: 'Full-Stack Team Lead, Architect, Scrum Master',
+                duration: '09/2019 - 09/2021',
+            }
+        ],
         companyName: 'Digitest.nl',
         duration: '2 Years',
         companyProfile: ' Digitest is an online assessment and examination SaaS solution. A KBenP partner firm',
@@ -485,6 +547,7 @@ export const exp = [
         technicalSkills: [],
         conceptualSkills: [],
         tasksAchievements: [
+            'Led a team of 7 Full-stack and Cloud engineers',
             'Designed extremely high throughput ingestion APIs with high availability and less than 500ms response times for C10K.',
             // 'Enhanced Aggregation Pipelines for MongoDB to increase database performance and reduce query resolution times from ~4 seconds to about ~120ms.',
             'Enhanced API Response times ~4 seconds to about ~120ms.',
@@ -500,7 +563,12 @@ export const exp = [
         ]
     },
     {
-        servedAs: 'Product Development Lead',
+        servedAs: [
+            {
+                position: 'Product Development Lead',
+                duration: '09/2019 - 12/2020'
+            }
+        ],
         companyName: 'Scientise7 Pvt. ltd',
         duration: '1 Year, 3 Months',
         companyProfile: 'A company carrying multiple mature products that are live, providing quality solutions in record time.',
@@ -556,7 +624,7 @@ export const exp = [
         tasksAchievements: [
             // 'Served as Scrum Master on multiple products.',
             // 'Provided Solution Architectures for several projects.',
-            // 'Lead production of 2 live international products including Hikma Online & Digitest Netherlands.',
+            // 'Led production of 2 live international products including Hikma Online & Digitest Netherlands.',
             // 'Managed rapid development pipeline for custom projects & requests.',
             // 'Requriements engineering for products.',
             // 'Product Management & Development including managing scurm backlogs.',
@@ -565,7 +633,12 @@ export const exp = [
         ]
     },
     {
-        servedAs: 'Team Lead (Senior Software Engineer)',
+        servedAs: [
+            {
+                position: 'Senior Software Engineer',
+                duration: '05/2018 - 06/2019',
+            }
+        ],
         companyName: 'Pulsate Technologies',
         duration: '1 Year, 1 Month',
         companyProfile: 'Pulsate Technologies (Pulsatechs) is a tech company aimed at upgrading the standard of living for an increasingly technological society.',
@@ -593,7 +666,12 @@ export const exp = [
         ]
     },
     {
-        servedAs: 'Electrical Engineer & IoT Developer',
+        servedAs: [
+            {
+                position: 'IoT Developer & Electrical Engineer',
+                duration: '07/2015 - 11/2016',
+            }
+        ],
         companyName: 'Integraject',
         duration: '1 Year, 4 Months',
         companyProfile: 'A service based company providing full-stack development & IoT consultancy as services.',
