@@ -265,6 +265,74 @@ export const exp = [
             // 'Helped enhance and integrate a proper Version Control Strategy & Flow for team Backend',
         ]
     },
+    // {
+    //     companyName: 'CloudPrimero',
+    //     servedAs: [
+    //         {
+    //             position: 'Engineering Lead - Backend',
+    //             duration: '07/2022 - To Date'
+    //         },
+    //         {
+    //             position: 'Senior Backend Engineer',
+    //             duration: '05/2022 - 07/2022'
+    //         },
+    //     ],
+    //     duration: '10 Months',
+    //     companyProfile: 'Cloud Primero is a technology consulting and services company that helps build digital solutions and implement digital transformation initiatives using the latest in big data, cloud services, AI, and cutting-edge custom application development services.',
+    //     uri: 'https://cloudprimero.com/',
+    //     projects: [
+    //         {
+    //             name: '433 Home of Football Backend',
+    //             detail: '433 Backend applications and infrastructure for the 433 HoF app, coupled with the 433 CMS',
+    //         }
+    //     ],
+    //     technicalSkills: [
+    //         { skill: 'AWS' },
+    //         { skill: 'MongoDB' },
+    //         // { skill: 'Firebase' },
+    //         // { skill: 'Google Cloud Platform' },
+    //         // { skill: 'DevOps' },
+    //         { skill: 'CloudOps' },
+    //         // { skill: 'CI/CD' },
+    //         // { skill: 'Github Actions' },
+    //         { skill: 'Docker' },
+    //         { skill: 'Javascript' },
+    //         // { skill: 'Nginx' },
+    //         // { skill: 'Linux' },
+    //         // { skill: 'Git' },
+    //         // { skill: 'Socket.io' },
+    //         { skill: 'Node.js' },
+    //         // { skill: 'MySQL' },
+    //         // { skill: 'Laravel' },
+    //         { skill: 'TDD' },
+    //         // { skill: 'Jest' },
+    //         // { skill: 'Chai' },
+    //         // { skill: 'Mocha' },
+    //         // { skill: 'Sentry' },
+    //         { skill: 'Redis' },
+    //         // { skill: 'Slack-hooks' },
+    //         // { skill: 'Jira' },
+    //     ],
+    //     conceptualSkills: [
+    //         { skill: 'Infrastructure Architecture Design' },
+    //         { skill: 'Cloud Architecture Design' },
+    //         { skill: 'Solution Architecture Design' },
+    //         // { skill: 'CQRS' },
+    //         { skill: 'Microservices & Decomposition + Arch Patterns' },
+    //         // { skill: 'Event-sourcing' },
+    //         { skill: 'Caching' },
+    //         // { skill: 'Message-queues' },
+    //         // { skill: 'Jump-box' },
+    //         { skill: 'Shell Scripting' },
+    //         // { skill: 'Cron' },
+    //         // { skill: 'ETL' },
+    //         // { skill: 'Data Mining' },
+    //         { skill: 'Data Warehousing' },
+    //     ],
+    //     tasksAchievements: [
+    //         'Helped enhance and integrate a proper Version Control Strategy & Flow for team Backend',
+    //     ]
+    // },
     {
         companyName: 'Liquid Technologies',
         servedAs: [
