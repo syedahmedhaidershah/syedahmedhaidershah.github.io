@@ -424,7 +424,7 @@ export const exp = [
     {
         servedAs: 'Electrical Engineer & IoT Developer',
         companyName: 'Integraject',
-        duration: '07/2015 - 11/2016',
+        duration: '07/2015 - 05/2018',
         companyProfile: 'A service based company providing full-stack development & IoT consultancy as services.',
         uri: '',
         projects: [
