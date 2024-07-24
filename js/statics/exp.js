@@ -335,8 +335,8 @@ export const exp = [
     {
         servedAs: 'Product Development Lead',
         companyName: 'Scientise7 Pvt. ltd',
-        duration: '09/2019 - 12/2020',
-        companyProfile: 'A company carrying multiple mature products that are live, providing quality solutions in record time.',
+        duration: '12/2019 - 12/2020',
+        companyProfile: 'A company carrying multiple mature products that are live, providing quality solutions in record time. (Merger with Digitest.nl)',
         uri: '',
         projects: [
             //     {
@@ -398,7 +398,7 @@ export const exp = [
     {
         servedAs: 'Team Lead (Senior Software Engineer)',
         companyName: 'Pulsate Technologies',
-        duration: '05/2018 - 06/2019',
+        duration: '05/2018 - 09/2019',
         companyProfile: 'Pulsate Technologies (Pulsatechs) is a tech company aimed at upgrading the standard of living for an increasingly technological society.',
         uri: '',
         projects: [
