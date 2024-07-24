@@ -4,7 +4,7 @@ export const exp = [
         servedAs: [
             {
                 position: 'Systems Engineer',
-                duration: '07/2022 - To Date'
+                duration: '08/2023 - To Date'
             },
         ],
         duration: '10 Months',
@@ -55,7 +55,11 @@ export const exp = [
             { skill: 'Data Warehousing' },
         ],
         tasksAchievements: [
-            'Helped enhance and integrate a proper Version Control Strategy & Flow for team Backend',
+            'Worked as a Systems / Platform engineer encompassing roles of DevOps, System Administrator and Platform engineering',
+            'Worked with clients for CI/CD, systems of clients as well as internal products',
+            'Setup and  multiple deployment environments using dedicated servers, shared hostings, Kubernetes clusters in EKS',
+            'Used Infrastructure as Code Tools such as Terraform, Ansible, Helm',
+            'Worked on Node.JS Microservices for products',
         ]
     },
     {
