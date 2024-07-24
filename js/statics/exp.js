@@ -1,14 +1,14 @@
 export const exp = [
     {
-        companyName: '10Up LLC.',
+        companyName: '10Up Inc.',
         servedAs: [
             {
                 position: 'Systems Engineer',
                 duration: '08/2023 - To Date'
             },
         ],
-        duration: '10 Months',
-        companyProfile: '10Up make the web better by finely crafting websites & tools for content creators.',
+        duration: '11 months',
+        companyProfile: '10Up makes the web better by finely crafting websites & tools for content creators.',
         uri: 'https://10up.com/',
         projects: [
         ],
@@ -16,25 +16,25 @@ export const exp = [
             { skill: 'Ansible' },
             { skill: 'AWS' },
             { skill: 'DevOps' },
-            { skill: 'CloudOps' },
-            { skill: 'CI/CD' },
+            // { skill: 'CloudOps' },
+            // { skill: 'CI/CD' },
             { skill: 'Github Actions' },
             { skill: 'DataDog' },
             { skill: 'Docker' },
-            { skill: 'ElasticSearch' },
+            // { skill: 'ElasticSearch' },
             { skill: 'Git' },
             { skill: 'Helm' },
             { skill: 'Javascript' },
             { skill: 'Jest' },
-            { skill: 'Jira' },
+            // { skill: 'Jira' },
             { skill: 'Kubernetes' },
             { skill: 'Linux' },
-            { skill: 'Laravel' },
+            // { skill: 'Laravel' },
             { skill: 'MySQL' },
             { skill: 'Nginx' },
             { skill: 'Node.js' },
             { skill: 'Terraform' },
-            { skill: 'TDD' },
+            // { skill: 'TDD' },
             { skill: 'Shell scripting' },
             { skill: 'Redis' },
         ],
@@ -55,15 +55,15 @@ export const exp = [
             { skill: 'Data Warehousing' },
         ],
         tasksAchievements: [
-            'Worked as a Systems / Platform engineer encompassing roles of DevOps, System Administrator and Platform engineering',
-            'Worked with clients for CI/CD, systems of clients as well as internal products',
-            'Setup and  multiple deployment environments using dedicated servers, shared hostings, Kubernetes clusters in EKS',
+            'Worked as a Systems engineer encompassing roles of DevOps, System Administrator and Platform engineering',
+            // 'Worked with clients for CI/CD, systems as well as internal products',
+            'Setup and provisioned multiple deployment environments using dedicated servers, Kubernetes clusters, Fargate clusters in EKS etc',
             'Used Infrastructure as Code Tools such as Terraform, Ansible, Helm',
             'Worked on Node.JS Microservices for products',
         ]
     },
     {
-        companyName: 'CloudPrimero',
+        companyName: 'Cloud Primero',
         servedAs: [
             {
                 position: 'Engineering Lead - Backend',
@@ -74,7 +74,7 @@ export const exp = [
                 duration: '05/2022 - 07/2022'
             },
         ],
-        duration: '10 Months',
+        duration: '1 yr 4 months',
         companyProfile: 'Cloud Primero is a technology consulting and services company that helps build digital solutions and implement digital transformation initiatives using the latest in big data, cloud services, AI, and cutting-edge custom application development services.',
         uri: 'https://cloudprimero.com/',
         projects: [
@@ -124,10 +124,11 @@ export const exp = [
         ],
         tasksAchievements: [
             'Helped enhance and integrate a proper Version Control Strategy & Flow for team Backend',
+            'Worked with clients and internal products'
         ]
     },
     {
-        companyName: '433 Football (CloudPrimero x 433)',
+        companyName: '433 Football (Cloud Primero x 433)',
         servedAs: [
             {
                 position: 'Engineering Lead - Backend',
@@ -139,7 +140,7 @@ export const exp = [
             },
         ],
         duration: '10 Months',
-        companyProfile: '433 Football is one of the largest football communities accross the globe working on Football News, IoT and Data Analytics. (Outsourced via CloudPrimero B.V)',
+        companyProfile: '433 Football is one of the largest football communities accross the globe working on Football News, IoT and Data Analytics. (Outsourced via Cloud Primero B.V)',
         uri: 'https://www.433football.com/',
         projects: [
             {
@@ -266,7 +267,7 @@ export const exp = [
         ]
     },
     // {
-    //     companyName: 'CloudPrimero',
+    //     companyName: 'Cloud Primero',
     //     servedAs: [
     //         {
     //             position: 'Engineering Lead - Backend',
@@ -551,18 +552,19 @@ export const exp = [
             }
         ],
         tasksAchievements: [
-            'Led a team 5 cross-functional full-stack and cloud engineers',
-            // 'Onboarded and provided System & Architecture solutions to  IoT related data problems in Procheck (Sarmayakaar Funded Platform)',
-            // 'Streamlined the delivery of SmartRupee, an Elphinsotne Platform as a Consultant Engineering Lead',
-            'Onboarded and provided System & Achitecture solutions to multiple clients with streamlined deliveries',
-            // 'Setup company boilerplates for Programme & People Management',
-            // 'Setup, designed infrastructures and Architectures of Applications large scale platforms & products with my team',
-            // 'Introduced Scrum + Extreme Programming Practices',
-            // 'Introduced the use of Atlassian Products such as Jira and Confluence',
-            'Improved Version Control Strategies and Practices',
-            // 'Setup and deployed boilerplates for CI/CD Pipelines',
-            // 'Trained and onboarded Developers, Engineers, QA Engineers (Automation + Testing) and DevOps Engineers',
-            'Aligned with Data-Engineers & Data Analysts (Data Team) to provide robust solutions and designed architecture for one of their upcoming products'
+            'Led a team of 5 engineers, providing system and architecture solutions to clients, improving version control strategies, and collaborating with data teams to design robust solutions and architecture for new products.'
+            // 'Led a team 5 cross-functional full-stack and cloud engineers',
+            // // 'Onboarded and provided System & Architecture solutions to  IoT related data problems in Procheck (Sarmayakaar Funded Platform)',
+            // // 'Streamlined the delivery of SmartRupee, an Elphinsotne Platform as a Consultant Engineering Lead',
+            // 'Onboarded and provided System & Achitecture solutions to multiple clients with streamlined deliveries',
+            // // 'Setup company boilerplates for Programme & People Management',
+            // // 'Setup, designed infrastructures and Architectures of Applications large scale platforms & products with my team',
+            // // 'Introduced Scrum + Extreme Programming Practices',
+            // // 'Introduced the use of Atlassian Products such as Jira and Confluence',
+            // 'Improved Version Control Strategies and Practices',
+            // // 'Setup and deployed boilerplates for CI/CD Pipelines',
+            // // 'Trained and onboarded Developers, Engineers, QA Engineers (Automation + Testing) and DevOps Engineers',
+            // 'Aligned with Data-Engineers & Data Analysts (Data Team) to provide robust solutions and designed architecture for one of their upcoming products'
         ]
     },
     {
@@ -619,15 +621,16 @@ export const exp = [
         technicalSkills: [],
         conceptualSkills: [],
         tasksAchievements: [
-            'Led a team of 7 Full-stack and Cloud engineers',
-            'Designed extremely high throughput ingestion APIs with high availability and less than 500ms response times for C10K.',
-            // 'Enhanced Aggregation Pipelines for MongoDB to increase database performance and reduce query resolution times from ~4 seconds to about ~120ms.',
-            'Enhanced API Response times ~4 seconds to about ~120ms.',
-            // 'Looked over and integrated clever design patterns to make application modules plug and play, adaptable, reusable and replaceable.',
-            'Served as Full Stack MEAN Developer, Team Lead & Assosciate Architect.',
-            // 'Managed DevOps and served as Co-Dev Manager.',
-            'Leading development for the product Digitest, which is an online testing System.',
-            'Helped manage product requirements',
+            'Led a team of 7 engineers, designed high throughput APIs with <500ms response times for C10K, improved API response times from ~4s to ~120ms, served as Full Stack MEAN Developer, Team Lead, and Associate Architect, led development of the Digitest online testing system, and managed product requirements.'
+            // 'Led a team of 7 Full-stack and Cloud engineers',
+            // 'Designed extremely high throughput ingestion APIs with high availability and less than 500ms response times for C10K.',
+            // // 'Enhanced Aggregation Pipelines for MongoDB to increase database performance and reduce query resolution times from ~4 seconds to about ~120ms.',
+            // 'Enhanced API Response times ~4 seconds to about ~120ms.',
+            // // 'Looked over and integrated clever design patterns to make application modules plug and play, adaptable, reusable and replaceable.',
+            // 'Served as Full Stack MEAN Developer, Team Lead & Assosciate Architect.',
+            // // 'Managed DevOps and served as Co-Dev Manager.',
+            // 'Leading development for the product Digitest, which is an online testing System.',
+            // 'Helped manage product requirements',
             // 'Lead entirety of features production',
             // 'Played the role of Scrum Master while managing the Backlog as well as the team',
             // 'Maintained Shift left SDLC.',
